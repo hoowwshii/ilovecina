@@ -1,0 +1,2132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-10-06T03:45:03.913543200Z</date>
+  <millis>1696563903913</millis>
+  <nanos>543200</nanos>
+  <sequence>0</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>buka fiierxfox</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:04.310268600Z</date>
+  <millis>1696563904310</millis>
+  <nanos>268600</nanos>
+  <sequence>1</sequence>
+  <logger>io.netty.util.internal.logging.InternalLoggerFactory</logger>
+  <level>FINE</level>
+  <class>io.netty.util.internal.logging.InternalLoggerFactory</class>
+  <method>useJdkLoggerFactory</method>
+  <thread>1</thread>
+  <message>Using java.util.logging as the default logging framework</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:04.317264700Z</date>
+  <millis>1696563904317</millis>
+  <nanos>264700</nanos>
+  <sequence>2</sequence>
+  <logger>io.netty.util.ResourceLeakDetector</logger>
+  <level>FINE</level>
+  <class>io.netty.util.ResourceLeakDetector</class>
+  <method>&lt;clinit&gt;</method>
+  <thread>1</thread>
+  <message>-Dio.netty.leakDetection.level: simple</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:04.318264600Z</date>
+  <millis>1696563904318</millis>
+  <nanos>264600</nanos>
+  <sequence>3</sequence>
+  <logger>io.netty.util.ResourceLeakDetector</logger>
+  <level>FINE</level>
+  <class>io.netty.util.ResourceLeakDetector</class>
+  <method>&lt;clinit&gt;</method>
+  <thread>1</thread>
+  <message>-Dio.netty.leakDetection.targetRecords: 4</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:04.326263Z</date>
+  <millis>1696563904326</millis>
+  <nanos>263000</nanos>
+  <sequence>4</sequence>
+  <logger>io.netty.util.ResourceLeakDetectorFactory</logger>
+  <level>FINE</level>
+  <class>io.netty.util.ResourceLeakDetectorFactory$DefaultResourceLeakDetectorFactory</class>
+  <method>newResourceLeakDetector</method>
+  <thread>1</thread>
+  <message>Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@3ecd23d9</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:04.358251700Z</date>
+  <millis>1696563904358</millis>
+  <nanos>251700</nanos>
+  <sequence>5</sequence>
+  <logger>io.netty.util.internal.PlatformDependent0</logger>
+  <level>FINE</level>
+  <class>io.netty.util.internal.PlatformDependent0</class>
+  <method>explicitNoUnsafeCause0</method>
+  <thread>1</thread>
+  <message>-Dio.netty.noUnsafe: false</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:04.358251700Z</date>
+  <millis>1696563904358</millis>
+  <nanos>251700</nanos>
+  <sequence>6</sequence>
+  <logger>io.netty.util.internal.PlatformDependent0</logger>
+  <level>FINE</level>
+  <class>io.netty.util.internal.PlatformDependent0</class>
+  <method>javaVersion0</method>
+  <thread>1</thread>
+  <message>Java version: 19</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:04.362252300Z</date>
+  <millis>1696563904362</millis>
+  <nanos>252300</nanos>
+  <sequence>7</sequence>
+  <logger>io.netty.util.internal.PlatformDependent0</logger>
+  <level>FINE</level>
+  <class>io.netty.util.internal.PlatformDependent0</class>
+  <method>&lt;clinit&gt;</method>
+  <thread>1</thread>
+  <message>sun.misc.Unsafe.theUnsafe: available</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:04.364250900Z</date>
+  <millis>1696563904364</millis>
+  <nanos>250900</nanos>
+  <sequence>8</sequence>
+  <logger>io.netty.util.internal.PlatformDependent0</logger>
+  <level>FINE</level>
+  <class>io.netty.util.internal.PlatformDependent0</class>
+  <method>&lt;clinit&gt;</method>
+  <thread>1</thread>
+  <message>sun.misc.Unsafe.copyMemory: available</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:04.366249300Z</date>
+  <millis>1696563904366</millis>
+  <nanos>249300</nanos>
+  <sequence>9</sequence>
+  <logger>io.netty.util.internal.PlatformDependent0</logger>
+  <level>FINE</level>
+  <class>io.netty.util.internal.PlatformDependent0</class>
+  <method>&lt;clinit&gt;</method>
+  <thread>1</thread>
+  <message>sun.misc.Unsafe.storeFence: available</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:04.368523500Z</date>
+  <millis>1696563904368</millis>
+  <nanos>523500</nanos>
+  <sequence>10</sequence>
+  <logger>io.netty.util.internal.PlatformDependent0</logger>
+  <level>FINE</level>
+  <class>io.netty.util.internal.PlatformDependent0</class>
+  <method>&lt;clinit&gt;</method>
+  <thread>1</thread>
+  <message>java.nio.Buffer.address: available</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:04.369527200Z</date>
+  <millis>1696563904369</millis>
+  <nanos>527200</nanos>
+  <sequence>11</sequence>
+  <logger>io.netty.util.internal.PlatformDependent0</logger>
+  <level>FINE</level>
+  <class>io.netty.util.internal.PlatformDependent0</class>
+  <method>&lt;clinit&gt;</method>
+  <thread>1</thread>
+  <message>direct buffer constructor: unavailable: Reflective setAccessible(true) disabled</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:04.371528300Z</date>
+  <millis>1696563904371</millis>
+  <nanos>528300</nanos>
+  <sequence>12</sequence>
+  <logger>io.netty.util.internal.PlatformDependent0</logger>
+  <level>FINE</level>
+  <class>io.netty.util.internal.PlatformDependent0</class>
+  <method>&lt;clinit&gt;</method>
+  <thread>1</thread>
+  <message>java.nio.Bits.unaligned: available, true</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:04.373528300Z</date>
+  <millis>1696563904373</millis>
+  <nanos>528300</nanos>
+  <sequence>13</sequence>
+  <logger>io.netty.util.internal.PlatformDependent0</logger>
+  <level>FINE</level>
+  <class>io.netty.util.internal.PlatformDependent0</class>
+  <method>&lt;clinit&gt;</method>
+  <thread>1</thread>
+  <message>jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @553f17c</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:04.375525400Z</date>
+  <millis>1696563904375</millis>
+  <nanos>525400</nanos>
+  <sequence>14</sequence>
+  <logger>io.netty.util.internal.PlatformDependent0</logger>
+  <level>FINE</level>
+  <class>io.netty.util.internal.PlatformDependent0</class>
+  <method>&lt;clinit&gt;</method>
+  <thread>1</thread>
+  <message>java.nio.DirectByteBuffer.&lt;init&gt;(long, int): unavailable</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:04.375525400Z</date>
+  <millis>1696563904375</millis>
+  <nanos>525400</nanos>
+  <sequence>15</sequence>
+  <logger>io.netty.util.internal.PlatformDependent</logger>
+  <level>FINE</level>
+  <class>io.netty.util.internal.PlatformDependent</class>
+  <method>unsafeUnavailabilityCause0</method>
+  <thread>1</thread>
+  <message>sun.misc.Unsafe: available</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:04.405033500Z</date>
+  <millis>1696563904405</millis>
+  <nanos>33500</nanos>
+  <sequence>16</sequence>
+  <logger>io.netty.util.internal.PlatformDependent</logger>
+  <level>FINE</level>
+  <class>io.netty.util.internal.PlatformDependent</class>
+  <method>estimateMaxDirectMemory</method>
+  <thread>1</thread>
+  <message>maxDirectMemory: 2126512128 bytes (maybe)</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:04.406033Z</date>
+  <millis>1696563904406</millis>
+  <nanos>33000</nanos>
+  <sequence>17</sequence>
+  <logger>io.netty.util.internal.PlatformDependent</logger>
+  <level>FINE</level>
+  <class>io.netty.util.internal.PlatformDependent</class>
+  <method>tmpdir0</method>
+  <thread>1</thread>
+  <message>-Dio.netty.tmpdir: C:\Users\hoshi\AppData\Local\Temp (java.io.tmpdir)</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:04.407034Z</date>
+  <millis>1696563904407</millis>
+  <nanos>34000</nanos>
+  <sequence>18</sequence>
+  <logger>io.netty.util.internal.PlatformDependent</logger>
+  <level>FINE</level>
+  <class>io.netty.util.internal.PlatformDependent</class>
+  <method>bitMode0</method>
+  <thread>1</thread>
+  <message>-Dio.netty.bitMode: 64 (sun.arch.data.model)</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:04.408034Z</date>
+  <millis>1696563904408</millis>
+  <nanos>34000</nanos>
+  <sequence>19</sequence>
+  <logger>io.netty.util.internal.PlatformDependent</logger>
+  <level>FINE</level>
+  <class>io.netty.util.internal.PlatformDependent</class>
+  <method>isWindows0</method>
+  <thread>1</thread>
+  <message>Platform: Windows</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:04.410033300Z</date>
+  <millis>1696563904410</millis>
+  <nanos>33300</nanos>
+  <sequence>20</sequence>
+  <logger>io.netty.util.internal.PlatformDependent</logger>
+  <level>FINE</level>
+  <class>io.netty.util.internal.PlatformDependent</class>
+  <method>&lt;clinit&gt;</method>
+  <thread>1</thread>
+  <message>-Dio.netty.maxDirectMemory: -1 bytes</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:04.411032700Z</date>
+  <millis>1696563904411</millis>
+  <nanos>32700</nanos>
+  <sequence>21</sequence>
+  <logger>io.netty.util.internal.PlatformDependent</logger>
+  <level>FINE</level>
+  <class>io.netty.util.internal.PlatformDependent</class>
+  <method>&lt;clinit&gt;</method>
+  <thread>1</thread>
+  <message>-Dio.netty.uninitializedArrayAllocationThreshold: -1</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:04.415031600Z</date>
+  <millis>1696563904415</millis>
+  <nanos>31600</nanos>
+  <sequence>22</sequence>
+  <logger>io.netty.util.internal.CleanerJava9</logger>
+  <level>FINE</level>
+  <class>io.netty.util.internal.CleanerJava9</class>
+  <method>&lt;clinit&gt;</method>
+  <thread>1</thread>
+  <message>java.nio.ByteBuffer.cleaner(): available</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:04.416034300Z</date>
+  <millis>1696563904416</millis>
+  <nanos>34300</nanos>
+  <sequence>23</sequence>
+  <logger>io.netty.util.internal.PlatformDependent</logger>
+  <level>FINE</level>
+  <class>io.netty.util.internal.PlatformDependent</class>
+  <method>&lt;clinit&gt;</method>
+  <thread>1</thread>
+  <message>-Dio.netty.noPreferDirect: false</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:04.431026700Z</date>
+  <millis>1696563904431</millis>
+  <nanos>26700</nanos>
+  <sequence>24</sequence>
+  <logger>io.netty.util.internal.PlatformDependent</logger>
+  <level>FINE</level>
+  <class>io.netty.util.internal.PlatformDependent$Mpsc</class>
+  <method>&lt;clinit&gt;</method>
+  <thread>1</thread>
+  <message>org.jctools-core.MpscChunkedArrayQueue: available</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:04.470013800Z</date>
+  <millis>1696563904470</millis>
+  <nanos>13800</nanos>
+  <sequence>25</sequence>
+  <logger>io.netty.util.internal.InternalThreadLocalMap</logger>
+  <level>FINE</level>
+  <class>io.netty.util.internal.InternalThreadLocalMap</class>
+  <method>&lt;clinit&gt;</method>
+  <thread>1</thread>
+  <message>-Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:04.471012100Z</date>
+  <millis>1696563904471</millis>
+  <nanos>12100</nanos>
+  <sequence>26</sequence>
+  <logger>io.netty.util.internal.InternalThreadLocalMap</logger>
+  <level>FINE</level>
+  <class>io.netty.util.internal.InternalThreadLocalMap</class>
+  <method>&lt;clinit&gt;</method>
+  <thread>1</thread>
+  <message>-Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:04.719139Z</date>
+  <millis>1696563904719</millis>
+  <nanos>139000</nanos>
+  <sequence>27</sequence>
+  <logger>jdk.event.security</logger>
+  <level>FINE</level>
+  <class>jdk.internal.event.EventHelper</class>
+  <method>logX509CertificateEvent</method>
+  <thread>1</thread>
+  <message>X509Certificate: Alg:SHA256withRSA, Serial:570a119742c4e3cc, Subject:CN=Actalis Authentication Root CA, O=Actalis S.p.A./03358520967, L=Milan, C=IT, Issuer:CN=Actalis Authentication Root CA, O=Actalis S.p.A./03358520967, L=Milan, C=IT, Key type:RSA, Length:4096, Cert Id:1729119956, Valid from:9/22/11, 6:22 PM, Valid until:9/22/30, 6:22 PM</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:04.759125700Z</date>
+  <millis>1696563904759</millis>
+  <nanos>125700</nanos>
+  <sequence>28</sequence>
+  <logger>jdk.event.security</logger>
+  <level>FINE</level>
+  <class>jdk.internal.event.EventHelper</class>
+  <method>logX509CertificateEvent</method>
+  <thread>1</thread>
+  <message>X509Certificate: Alg:SHA1withRSA, Serial:1, Subject:CN=AddTrust External CA Root, OU=AddTrust External TTP Network, O=AddTrust AB, C=SE, Issuer:CN=AddTrust External CA Root, OU=AddTrust External TTP Network, O=AddTrust AB, C=SE, Key type:RSA, Length:2048, Cert Id:-326352672, Valid from:5/30/00, 5:48 PM, Valid until:5/30/20, 5:48 PM</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:04.762125800Z</date>
+  <millis>1696563904762</millis>
+  <nanos>125800</nanos>
+  <sequence>29</sequence>
+  <logger>jdk.event.security</logger>
+  <level>FINE</level>
+  <class>jdk.internal.event.EventHelper</class>
+  <method>logX509CertificateEvent</method>
+  <thread>1</thread>
+  <message>X509Certificate: Alg:SHA1withRSA, Serial:1, Subject:CN=AddTrust Qualified CA Root, OU=AddTrust TTP Network, O=AddTrust AB, C=SE, Issuer:CN=AddTrust Qualified CA Root, OU=AddTrust TTP Network, O=AddTrust AB, C=SE, Key type:RSA, Length:2048, Cert Id:607365522, Valid from:5/30/00, 5:44 PM, Valid until:5/30/20, 5:44 PM</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:04.766123400Z</date>
+  <millis>1696563904766</millis>
+  <nanos>123400</nanos>
+  <sequence>30</sequence>
+  <logger>jdk.event.security</logger>
+  <level>FINE</level>
+  <class>jdk.internal.event.EventHelper</class>
+  <method>logX509CertificateEvent</method>
+  <thread>1</thread>
+  <message>X509Certificate: Alg:SHA256withRSA, Serial:7777062726a9b17c, Subject:CN=AffirmTrust Commercial, O=AffirmTrust, C=US, Issuer:CN=AffirmTrust Commercial, O=AffirmTrust, C=US, Key type:RSA, Length:2048, Cert Id:630485644, Valid from:1/29/10, 9:06 PM, Valid until:12/31/30, 9:06 PM</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:04.770123Z</date>
+  <millis>1696563904770</millis>
+  <nanos>123000</nanos>
+  <sequence>31</sequence>
+  <logger>jdk.event.security</logger>
+  <level>FINE</level>
+  <class>jdk.internal.event.EventHelper</class>
+  <method>logX509CertificateEvent</method>
+  <thread>1</thread>
+  <message>X509Certificate: Alg:SHA1withRSA, Serial:7c4f04391cd4992d, Subject:CN=AffirmTrust Networking, O=AffirmTrust, C=US, Issuer:CN=AffirmTrust Networking, O=AffirmTrust, C=US, Key type:RSA, Length:2048, Cert Id:651670175, Valid from:1/29/10, 9:08 PM, Valid until:12/31/30, 9:08 PM</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:04.773122600Z</date>
+  <millis>1696563904773</millis>
+  <nanos>122600</nanos>
+  <sequence>32</sequence>
+  <logger>jdk.event.security</logger>
+  <level>FINE</level>
+  <class>jdk.internal.event.EventHelper</class>
+  <method>logX509CertificateEvent</method>
+  <thread>1</thread>
+  <message>X509Certificate: Alg:SHA384withRSA, Serial:6d8c1446b1a60aee, Subject:CN=AffirmTrust Premium, O=AffirmTrust, C=US, Issuer:CN=AffirmTrust Premium, O=AffirmTrust, C=US, Key type:RSA, Length:4096, Cert Id:-2130283955, Valid from:1/29/10, 9:10 PM, Valid until:12/31/40, 9:10 PM</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:04.778120Z</date>
+  <millis>1696563904778</millis>
+  <nanos>120000</nanos>
+  <sequence>33</sequence>
+  <logger>jdk.event.security</logger>
+  <level>FINE</level>
+  <class>jdk.internal.event.EventHelper</class>
+  <method>logX509CertificateEvent</method>
+  <thread>1</thread>
+  <message>X509Certificate: Alg:SHA384withECDSA, Serial:7497258ac73f7a54, Subject:CN=AffirmTrust Premium ECC, O=AffirmTrust, C=US, Issuer:CN=AffirmTrust Premium ECC, O=AffirmTrust, C=US, Key type:EC, Length:384, Cert Id:-2080363786, Valid from:1/29/10, 9:20 PM, Valid until:12/31/40, 9:20 PM</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:04.783126Z</date>
+  <millis>1696563904783</millis>
+  <nanos>126000</nanos>
+  <sequence>34</sequence>
+  <logger>jdk.event.security</logger>
+  <level>FINE</level>
+  <class>jdk.internal.event.EventHelper</class>
+  <method>logX509CertificateEvent</method>
+  <thread>1</thread>
+  <message>X509Certificate: Alg:SHA256withRSA, Serial:66c9fcf99bf8c0a39e2f0788a43e696365bca, Subject:CN=Amazon Root CA 1, O=Amazon, C=US, Issuer:CN=Amazon Root CA 1, O=Amazon, C=US, Key type:RSA, Length:2048, Cert Id:-1472444962, Valid from:5/26/15, 7:00 AM, Valid until:1/17/38, 7:00 AM</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:04.787122600Z</date>
+  <millis>1696563904787</millis>
+  <nanos>122600</nanos>
+  <sequence>35</sequence>
+  <logger>jdk.event.security</logger>
+  <level>FINE</level>
+  <class>jdk.internal.event.EventHelper</class>
+  <method>logX509CertificateEvent</method>
+  <thread>1</thread>
+  <message>X509Certificate: Alg:SHA384withRSA, Serial:66c9fd29635869f0a0fe58678f85b26bb8a37, Subject:CN=Amazon Root CA 2, O=Amazon, C=US, Issuer:CN=Amazon Root CA 2, O=Amazon, C=US, Key type:RSA, Length:4096, Cert Id:-1766132388, Valid from:5/26/15, 7:00 AM, Valid until:5/26/40, 7:00 AM</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:04.790123800Z</date>
+  <millis>1696563904790</millis>
+  <nanos>123800</nanos>
+  <sequence>36</sequence>
+  <logger>jdk.event.security</logger>
+  <level>FINE</level>
+  <class>jdk.internal.event.EventHelper</class>
+  <method>logX509CertificateEvent</method>
+  <thread>1</thread>
+  <message>X509Certificate: Alg:SHA256withECDSA, Serial:66c9fd5749736663f3b0b9ad9e89e7603f24a, Subject:CN=Amazon Root CA 3, O=Amazon, C=US, Issuer:CN=Amazon Root CA 3, O=Amazon, C=US, Key type:EC, Length:256, Cert Id:-1562287523, Valid from:5/26/15, 7:00 AM, Valid until:5/26/40, 7:00 AM</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:04.793121Z</date>
+  <millis>1696563904793</millis>
+  <nanos>121000</nanos>
+  <sequence>37</sequence>
+  <logger>jdk.event.security</logger>
+  <level>FINE</level>
+  <class>jdk.internal.event.EventHelper</class>
+  <method>logX509CertificateEvent</method>
+  <thread>1</thread>
+  <message>X509Certificate: Alg:SHA384withECDSA, Serial:66c9fd7c1bb104c2943e5717b7b2cc81ac10e, Subject:CN=Amazon Root CA 4, O=Amazon, C=US, Issuer:CN=Amazon Root CA 4, O=Amazon, C=US, Key type:EC, Length:384, Cert Id:-1654272513, Valid from:5/26/15, 7:00 AM, Valid until:5/26/40, 7:00 AM</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:04.796633500Z</date>
+  <millis>1696563904796</millis>
+  <nanos>633500</nanos>
+  <sequence>38</sequence>
+  <logger>jdk.event.security</logger>
+  <level>FINE</level>
+  <class>jdk.internal.event.EventHelper</class>
+  <method>logX509CertificateEvent</method>
+  <thread>1</thread>
+  <message>X509Certificate: Alg:SHA1withRSA, Serial:20000b9, Subject:CN=Baltimore CyberTrust Root, OU=CyberTrust, O=Baltimore, C=IE, Issuer:CN=Baltimore CyberTrust Root, OU=CyberTrust, O=Baltimore, C=IE, Key type:RSA, Length:2048, Cert Id:1425294543, Valid from:5/13/00, 1:46 AM, Valid until:5/13/25, 6:59 AM</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:04.799632Z</date>
+  <millis>1696563904799</millis>
+  <nanos>632000</nanos>
+  <sequence>39</sequence>
+  <logger>jdk.event.security</logger>
+  <level>FINE</level>
+  <class>jdk.internal.event.EventHelper</class>
+  <method>logX509CertificateEvent</method>
+  <thread>1</thread>
+  <message>X509Certificate: Alg:SHA256withRSA, Serial:2, Subject:CN=Buypass Class 2 Root CA, O=Buypass AS-983163327, C=NO, Issuer:CN=Buypass Class 2 Root CA, O=Buypass AS-983163327, C=NO, Key type:RSA, Length:4096, Cert Id:969960563, Valid from:10/26/10, 3:38 PM, Valid until:10/26/40, 3:38 PM</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:04.802633100Z</date>
+  <millis>1696563904802</millis>
+  <nanos>633100</nanos>
+  <sequence>40</sequence>
+  <logger>jdk.event.security</logger>
+  <level>FINE</level>
+  <class>jdk.internal.event.EventHelper</class>
+  <method>logX509CertificateEvent</method>
+  <thread>1</thread>
+  <message>X509Certificate: Alg:SHA256withRSA, Serial:2, Subject:CN=Buypass Class 3 Root CA, O=Buypass AS-983163327, C=NO, Issuer:CN=Buypass Class 3 Root CA, O=Buypass AS-983163327, C=NO, Key type:RSA, Length:4096, Cert Id:1264269967, Valid from:10/26/10, 3:28 PM, Valid until:10/26/40, 3:28 PM</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:04.807628200Z</date>
+  <millis>1696563904807</millis>
+  <nanos>628200</nanos>
+  <sequence>41</sequence>
+  <logger>jdk.event.security</logger>
+  <level>FINE</level>
+  <class>jdk.internal.event.EventHelper</class>
+  <method>logX509CertificateEvent</method>
+  <thread>1</thread>
+  <message>X509Certificate: Alg:SHA1withRSA, Serial:a3da427ea4b1aeda, Subject:CN=Chambers of Commerce Root - 2008, O=AC Camerfirma S.A., SERIALNUMBER=A82743287, L=Madrid (see current address at www.camerfirma.com/address), C=EU, Issuer:CN=Chambers of Commerce Root - 2008, O=AC Camerfirma S.A., SERIALNUMBER=A82743287, L=Madrid (see current address at www.camerfirma.com/address), C=EU, Key type:RSA, Length:4096, Cert Id:-28263924, Valid from:8/1/08, 7:29 PM, Valid until:7/31/38, 7:29 PM</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:04.814627500Z</date>
+  <millis>1696563904814</millis>
+  <nanos>627500</nanos>
+  <sequence>42</sequence>
+  <logger>jdk.event.security</logger>
+  <level>FINE</level>
+  <class>jdk.internal.event.EventHelper</class>
+  <method>logX509CertificateEvent</method>
+  <thread>1</thread>
+  <message>X509Certificate: Alg:SHA1withRSA, Serial:0, Subject:CN=Chambers of Commerce Root, OU=http://www.chambersign.org, O=AC Camerfirma SA CIF A82743287, C=EU, Issuer:CN=Chambers of Commerce Root, OU=http://www.chambersign.org, O=AC Camerfirma SA CIF A82743287, C=EU, Key type:RSA, Length:2048, Cert Id:1827306452, Valid from:9/30/03, 11:13 PM, Valid until:9/30/37, 11:13 PM</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:04.818626400Z</date>
+  <millis>1696563904818</millis>
+  <nanos>626400</nanos>
+  <sequence>43</sequence>
+  <logger>jdk.event.security</logger>
+  <level>FINE</level>
+  <class>jdk.internal.event.EventHelper</class>
+  <method>logX509CertificateEvent</method>
+  <thread>1</thread>
+  <message>X509Certificate: Alg:SHA1withRSA, Serial:c9cdd3e9d57d23ce, Subject:CN=Global Chambersign Root - 2008, O=AC Camerfirma S.A., SERIALNUMBER=A82743287, L=Madrid (see current address at www.camerfirma.com/address), C=EU, Issuer:CN=Global Chambersign Root - 2008, O=AC Camerfirma S.A., SERIALNUMBER=A82743287, L=Madrid (see current address at www.camerfirma.com/address), C=EU, Key type:RSA, Length:4096, Cert Id:1271252776, Valid from:8/1/08, 7:31 PM, Valid until:7/31/38, 7:31 PM</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:04.821625100Z</date>
+  <millis>1696563904821</millis>
+  <nanos>625100</nanos>
+  <sequence>44</sequence>
+  <logger>jdk.event.security</logger>
+  <level>FINE</level>
+  <class>jdk.internal.event.EventHelper</class>
+  <method>logX509CertificateEvent</method>
+  <thread>1</thread>
+  <message>X509Certificate: Alg:SHA1withRSA, Serial:10020, Subject:CN=Certum CA, O=Unizeto Sp. z o.o., C=PL, Issuer:CN=Certum CA, O=Unizeto Sp. z o.o., C=PL, Key type:RSA, Length:2048, Cert Id:-744451266, Valid from:6/11/02, 5:46 PM, Valid until:6/11/27, 5:46 PM</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:04.824623900Z</date>
+  <millis>1696563904824</millis>
+  <nanos>623900</nanos>
+  <sequence>45</sequence>
+  <logger>jdk.event.security</logger>
+  <level>FINE</level>
+  <class>jdk.internal.event.EventHelper</class>
+  <method>logX509CertificateEvent</method>
+  <thread>1</thread>
+  <message>X509Certificate: Alg:SHA1withRSA, Serial:444c0, Subject:CN=Certum Trusted Network CA, OU=Certum Certification Authority, O=Unizeto Technologies S.A., C=PL, Issuer:CN=Certum Trusted Network CA, OU=Certum Certification Authority, O=Unizeto Technologies S.A., C=PL, Key type:RSA, Length:2048, Cert Id:2014002193, Valid from:10/22/08, 7:07 PM, Valid until:12/31/29, 7:07 PM</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:04.831621300Z</date>
+  <millis>1696563904831</millis>
+  <nanos>621300</nanos>
+  <sequence>46</sequence>
+  <logger>jdk.event.security</logger>
+  <level>FINE</level>
+  <class>jdk.internal.event.EventHelper</class>
+  <method>logX509CertificateEvent</method>
+  <thread>1</thread>
+  <message>X509Certificate: Alg:SHA1withRSA, Serial:15c8bd65475cafb897005ee406d2bc9d, Subject:OU=ePKI Root Certification Authority, O="Chunghwa Telecom Co., Ltd.", C=TW, Issuer:OU=ePKI Root Certification Authority, O="Chunghwa Telecom Co., Ltd.", C=TW, Key type:RSA, Length:4096, Cert Id:-662636137, Valid from:12/20/04, 9:31 AM, Valid until:12/20/34, 9:31 AM</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:04.834619800Z</date>
+  <millis>1696563904834</millis>
+  <nanos>619800</nanos>
+  <sequence>47</sequence>
+  <logger>jdk.event.security</logger>
+  <level>FINE</level>
+  <class>jdk.internal.event.EventHelper</class>
+  <method>logX509CertificateEvent</method>
+  <thread>1</thread>
+  <message>X509Certificate: Alg:SHA1withRSA, Serial:1, Subject:CN=AAA Certificate Services, O=Comodo CA Limited, L=Salford, ST=Greater Manchester, C=GB, Issuer:CN=AAA Certificate Services, O=Comodo CA Limited, L=Salford, ST=Greater Manchester, C=GB, Key type:RSA, Length:2048, Cert Id:-1197580894, Valid from:1/1/04, 7:00 AM, Valid until:1/1/29, 6:59 AM</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:04.838618700Z</date>
+  <millis>1696563904838</millis>
+  <nanos>618700</nanos>
+  <sequence>48</sequence>
+  <logger>jdk.event.security</logger>
+  <level>FINE</level>
+  <class>jdk.internal.event.EventHelper</class>
+  <method>logX509CertificateEvent</method>
+  <thread>1</thread>
+  <message>X509Certificate: Alg:SHA384withECDSA, Serial:1f47afaa62007050544c019e9b63992a, Subject:CN=COMODO ECC Certification Authority, O=COMODO CA Limited, L=Salford, ST=Greater Manchester, C=GB, Issuer:CN=COMODO ECC Certification Authority, O=COMODO CA Limited, L=Salford, ST=Greater Manchester, C=GB, Key type:EC, Length:384, Cert Id:1146488932, Valid from:3/6/08, 7:00 AM, Valid until:1/19/38, 6:59 AM</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:04.841618Z</date>
+  <millis>1696563904841</millis>
+  <nanos>618000</nanos>
+  <sequence>49</sequence>
+  <logger>jdk.event.security</logger>
+  <level>FINE</level>
+  <class>jdk.internal.event.EventHelper</class>
+  <method>logX509CertificateEvent</method>
+  <thread>1</thread>
+  <message>X509Certificate: Alg:SHA384withRSA, Serial:4caaf9cadb636fe01ff74ed85b03869d, Subject:CN=COMODO RSA Certification Authority, O=COMODO CA Limited, L=Salford, ST=Greater Manchester, C=GB, Issuer:CN=COMODO RSA Certification Authority, O=COMODO CA Limited, L=Salford, ST=Greater Manchester, C=GB, Key type:RSA, Length:4096, Cert Id:1769425049, Valid from:1/19/10, 7:00 AM, Valid until:1/19/38, 6:59 AM</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:04.845618300Z</date>
+  <millis>1696563904845</millis>
+  <nanos>618300</nanos>
+  <sequence>50</sequence>
+  <logger>jdk.event.security</logger>
+  <level>FINE</level>
+  <class>jdk.internal.event.EventHelper</class>
+  <method>logX509CertificateEvent</method>
+  <thread>1</thread>
+  <message>X509Certificate: Alg:SHA256withRSA, Serial:b931c3ad63967ea6723bfc3af9af44b, Subject:CN=DigiCert Assured ID Root G2, OU=www.digicert.com, O=DigiCert Inc, C=US, Issuer:CN=DigiCert Assured ID Root G2, OU=www.digicert.com, O=DigiCert Inc, C=US, Key type:RSA, Length:2048, Cert Id:-385398383, Valid from:8/1/13, 7:00 PM, Valid until:1/15/38, 7:00 PM</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:04.850614900Z</date>
+  <millis>1696563904850</millis>
+  <nanos>614900</nanos>
+  <sequence>51</sequence>
+  <logger>jdk.event.security</logger>
+  <level>FINE</level>
+  <class>jdk.internal.event.EventHelper</class>
+  <method>logX509CertificateEvent</method>
+  <thread>1</thread>
+  <message>X509Certificate: Alg:SHA384withECDSA, Serial:ba15afa1ddfa0b54944afcd24a06cec, Subject:CN=DigiCert Assured ID Root G3, OU=www.digicert.com, O=DigiCert Inc, C=US, Issuer:CN=DigiCert Assured ID Root G3, OU=www.digicert.com, O=DigiCert Inc, C=US, Key type:EC, Length:384, Cert Id:-645537245, Valid from:8/1/13, 7:00 PM, Valid until:1/15/38, 7:00 PM</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:04.853614600Z</date>
+  <millis>1696563904853</millis>
+  <nanos>614600</nanos>
+  <sequence>52</sequence>
+  <logger>jdk.event.security</logger>
+  <level>FINE</level>
+  <class>jdk.internal.event.EventHelper</class>
+  <method>logX509CertificateEvent</method>
+  <thread>1</thread>
+  <message>X509Certificate: Alg:SHA1withRSA, Serial:ce7e0e517d846fe8fe560fc1bf03039, Subject:CN=DigiCert Assured ID Root CA, OU=www.digicert.com, O=DigiCert Inc, C=US, Issuer:CN=DigiCert Assured ID Root CA, OU=www.digicert.com, O=DigiCert Inc, C=US, Key type:RSA, Length:2048, Cert Id:-860404528, Valid from:11/10/06, 7:00 AM, Valid until:11/10/31, 7:00 AM</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:04.856612900Z</date>
+  <millis>1696563904856</millis>
+  <nanos>612900</nanos>
+  <sequence>53</sequence>
+  <logger>jdk.event.security</logger>
+  <level>FINE</level>
+  <class>jdk.internal.event.EventHelper</class>
+  <method>logX509CertificateEvent</method>
+  <thread>1</thread>
+  <message>X509Certificate: Alg:SHA1withRSA, Serial:83be056904246b1a1756ac95991c74a, Subject:CN=DigiCert Global Root CA, OU=www.digicert.com, O=DigiCert Inc, C=US, Issuer:CN=DigiCert Global Root CA, OU=www.digicert.com, O=DigiCert Inc, C=US, Key type:RSA, Length:2048, Cert Id:1341898239, Valid from:11/10/06, 7:00 AM, Valid until:11/10/31, 7:00 AM</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:04.858612200Z</date>
+  <millis>1696563904858</millis>
+  <nanos>612200</nanos>
+  <sequence>54</sequence>
+  <logger>jdk.event.security</logger>
+  <level>FINE</level>
+  <class>jdk.internal.event.EventHelper</class>
+  <method>logX509CertificateEvent</method>
+  <thread>1</thread>
+  <message>X509Certificate: Alg:SHA256withRSA, Serial:33af1e6a711a9a0bb2864b11d09fae5, Subject:CN=DigiCert Global Root G2, OU=www.digicert.com, O=DigiCert Inc, C=US, Issuer:CN=DigiCert Global Root G2, OU=www.digicert.com, O=DigiCert Inc, C=US, Key type:RSA, Length:2048, Cert Id:1136084297, Valid from:8/1/13, 7:00 PM, Valid until:1/15/38, 7:00 PM</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:04.861612400Z</date>
+  <millis>1696563904861</millis>
+  <nanos>612400</nanos>
+  <sequence>55</sequence>
+  <logger>jdk.event.security</logger>
+  <level>FINE</level>
+  <class>jdk.internal.event.EventHelper</class>
+  <method>logX509CertificateEvent</method>
+  <thread>1</thread>
+  <message>X509Certificate: Alg:SHA384withECDSA, Serial:55556bcf25ea43535c3a40fd5ab4572, Subject:CN=DigiCert Global Root G3, OU=www.digicert.com, O=DigiCert Inc, C=US, Issuer:CN=DigiCert Global Root G3, OU=www.digicert.com, O=DigiCert Inc, C=US, Key type:EC, Length:384, Cert Id:-795968543, Valid from:8/1/13, 7:00 PM, Valid until:1/15/38, 7:00 PM</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:04.865610Z</date>
+  <millis>1696563904865</millis>
+  <nanos>610000</nanos>
+  <sequence>56</sequence>
+  <logger>jdk.event.security</logger>
+  <level>FINE</level>
+  <class>jdk.internal.event.EventHelper</class>
+  <method>logX509CertificateEvent</method>
+  <thread>1</thread>
+  <message>X509Certificate: Alg:SHA1withRSA, Serial:2ac5c266a0b409b8f0b79f2ae462577, Subject:CN=DigiCert High Assurance EV Root CA, OU=www.digicert.com, O=DigiCert Inc, C=US, Issuer:CN=DigiCert High Assurance EV Root CA, OU=www.digicert.com, O=DigiCert Inc, C=US, Key type:RSA, Length:2048, Cert Id:-1410680354, Valid from:11/10/06, 7:00 AM, Valid until:11/10/31, 7:00 AM</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:04.869608900Z</date>
+  <millis>1696563904869</millis>
+  <nanos>608900</nanos>
+  <sequence>57</sequence>
+  <logger>jdk.event.security</logger>
+  <level>FINE</level>
+  <class>jdk.internal.event.EventHelper</class>
+  <method>logX509CertificateEvent</method>
+  <thread>1</thread>
+  <message>X509Certificate: Alg:SHA384withRSA, Serial:59b1b579e8e2132e23907bda777755c, Subject:CN=DigiCert Trusted Root G4, OU=www.digicert.com, O=DigiCert Inc, C=US, Issuer:CN=DigiCert Trusted Root G4, OU=www.digicert.com, O=DigiCert Inc, C=US, Key type:RSA, Length:4096, Cert Id:1057369358, Valid from:8/1/13, 7:00 PM, Valid until:1/15/38, 7:00 PM</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:04.871608900Z</date>
+  <millis>1696563904871</millis>
+  <nanos>608900</nanos>
+  <sequence>58</sequence>
+  <logger>jdk.event.security</logger>
+  <level>FINE</level>
+  <class>jdk.internal.event.EventHelper</class>
+  <method>logX509CertificateEvent</method>
+  <thread>1</thread>
+  <message>X509Certificate: Alg:SHA256withRSA, Serial:983f3, Subject:CN=D-TRUST Root Class 3 CA 2 2009, O=D-Trust GmbH, C=DE, Issuer:CN=D-TRUST Root Class 3 CA 2 2009, O=D-Trust GmbH, C=DE, Key type:RSA, Length:2048, Cert Id:1430153102, Valid from:11/5/09, 3:35 PM, Valid until:11/5/29, 3:35 PM</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:04.874607400Z</date>
+  <millis>1696563904874</millis>
+  <nanos>607400</nanos>
+  <sequence>59</sequence>
+  <logger>jdk.event.security</logger>
+  <level>FINE</level>
+  <class>jdk.internal.event.EventHelper</class>
+  <method>logX509CertificateEvent</method>
+  <thread>1</thread>
+  <message>X509Certificate: Alg:SHA256withRSA, Serial:983f4, Subject:CN=D-TRUST Root Class 3 CA 2 EV 2009, O=D-Trust GmbH, C=DE, Issuer:CN=D-TRUST Root Class 3 CA 2 EV 2009, O=D-Trust GmbH, C=DE, Key type:RSA, Length:2048, Cert Id:971313728, Valid from:11/5/09, 3:50 PM, Valid until:11/5/29, 3:50 PM</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:04.876607600Z</date>
+  <millis>1696563904876</millis>
+  <nanos>607600</nanos>
+  <sequence>60</sequence>
+  <logger>jdk.event.security</logger>
+  <level>FINE</level>
+  <class>jdk.internal.event.EventHelper</class>
+  <method>logX509CertificateEvent</method>
+  <thread>1</thread>
+  <message>X509Certificate: Alg:SHA1withRSA, Serial:3863def8, Subject:CN=Entrust.net Certification Authority (2048), OU=(c) 1999 Entrust.net Limited, OU=www.entrust.net/CPS_2048 incorp. by ref. (limits liab.), O=Entrust.net, Issuer:CN=Entrust.net Certification Authority (2048), OU=(c) 1999 Entrust.net Limited, OU=www.entrust.net/CPS_2048 incorp. by ref. (limits liab.), O=Entrust.net, Key type:RSA, Length:2048, Cert Id:-328536082, Valid from:12/25/99, 12:50 AM, Valid until:7/24/29, 9:15 PM</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:04.882610800Z</date>
+  <millis>1696563904882</millis>
+  <nanos>610800</nanos>
+  <sequence>61</sequence>
+  <logger>jdk.event.security</logger>
+  <level>FINE</level>
+  <class>jdk.internal.event.EventHelper</class>
+  <method>logX509CertificateEvent</method>
+  <thread>1</thread>
+  <message>X509Certificate: Alg:SHA1withRSA, Serial:456b5054, Subject:CN=Entrust Root Certification Authority, OU="(c) 2006 Entrust, Inc.", OU=www.entrust.net/CPS is incorporated by reference, O="Entrust, Inc.", C=US, Issuer:CN=Entrust Root Certification Authority, OU="(c) 2006 Entrust, Inc.", OU=www.entrust.net/CPS is incorporated by reference, O="Entrust, Inc.", C=US, Key type:RSA, Length:2048, Cert Id:-1261404096, Valid from:11/28/06, 3:23 AM, Valid until:11/28/26, 3:53 AM</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:04.885608900Z</date>
+  <millis>1696563904885</millis>
+  <nanos>608900</nanos>
+  <sequence>62</sequence>
+  <logger>jdk.event.security</logger>
+  <level>FINE</level>
+  <class>jdk.internal.event.EventHelper</class>
+  <method>logX509CertificateEvent</method>
+  <thread>1</thread>
+  <message>X509Certificate: Alg:SHA384withECDSA, Serial:a68b79290000000050d091f9, Subject:CN=Entrust Root Certification Authority - EC1, OU="(c) 2012 Entrust, Inc. - for authorized use only", OU=See www.entrust.net/legal-terms, O="Entrust, Inc.", C=US, Issuer:CN=Entrust Root Certification Authority - EC1, OU="(c) 2012 Entrust, Inc. - for authorized use only", OU=See www.entrust.net/legal-terms, O="Entrust, Inc.", C=US, Key type:EC, Length:384, Cert Id:924514073, Valid from:12/18/12, 10:25 PM, Valid until:12/18/37, 10:55 PM</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:04.888610500Z</date>
+  <millis>1696563904888</millis>
+  <nanos>610500</nanos>
+  <sequence>63</sequence>
+  <logger>jdk.event.security</logger>
+  <level>FINE</level>
+  <class>jdk.internal.event.EventHelper</class>
+  <method>logX509CertificateEvent</method>
+  <thread>1</thread>
+  <message>X509Certificate: Alg:SHA256withRSA, Serial:4a538c28, Subject:CN=Entrust Root Certification Authority - G2, OU="(c) 2009 Entrust, Inc. - for authorized use only", OU=See www.entrust.net/legal-terms, O="Entrust, Inc.", C=US, Issuer:CN=Entrust Root Certification Authority - G2, OU="(c) 2009 Entrust, Inc. - for authorized use only", OU=See www.entrust.net/legal-terms, O="Entrust, Inc.", C=US, Key type:RSA, Length:2048, Cert Id:1936920337, Valid from:7/8/09, 12:25 AM, Valid until:12/8/30, 12:55 AM</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:04.890612100Z</date>
+  <millis>1696563904890</millis>
+  <nanos>612100</nanos>
+  <sequence>64</sequence>
+  <logger>jdk.event.security</logger>
+  <level>FINE</level>
+  <class>jdk.internal.event.EventHelper</class>
+  <method>logX509CertificateEvent</method>
+  <thread>1</thread>
+  <message>X509Certificate: Alg:SHA256withRSA, Serial:d9b5437fafa9390f000000005565ad58, Subject:CN=Entrust Root Certification Authority - G4, OU="(c) 2015 Entrust, Inc. - for authorized use only", OU=See www.entrust.net/legal-terms, O="Entrust, Inc.", C=US, Issuer:CN=Entrust Root Certification Authority - G4, OU="(c) 2015 Entrust, Inc. - for authorized use only", OU=See www.entrust.net/legal-terms, O="Entrust, Inc.", C=US, Key type:RSA, Length:4096, Cert Id:1368037548, Valid from:5/27/15, 6:11 PM, Valid until:12/27/37, 6:41 PM</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:04.893608300Z</date>
+  <millis>1696563904893</millis>
+  <nanos>608300</nanos>
+  <sequence>65</sequence>
+  <logger>jdk.event.security</logger>
+  <level>FINE</level>
+  <class>jdk.internal.event.EventHelper</class>
+  <method>logX509CertificateEvent</method>
+  <thread>1</thread>
+  <message>X509Certificate: Alg:SHA1withRSA, Serial:23456, Subject:CN=GeoTrust Global CA, O=GeoTrust Inc., C=US, Issuer:CN=GeoTrust Global CA, O=GeoTrust Inc., C=US, Key type:RSA, Length:2048, Cert Id:-2028617374, Valid from:5/21/02, 11:00 AM, Valid until:5/21/22, 11:00 AM</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:04.897123300Z</date>
+  <millis>1696563904897</millis>
+  <nanos>123300</nanos>
+  <sequence>66</sequence>
+  <logger>jdk.event.security</logger>
+  <level>FINE</level>
+  <class>jdk.internal.event.EventHelper</class>
+  <method>logX509CertificateEvent</method>
+  <thread>1</thread>
+  <message>X509Certificate: Alg:SHA1withRSA, Serial:18acb56afd69b6153a636cafdafac4a1, Subject:CN=GeoTrust Primary Certification Authority, O=GeoTrust Inc., C=US, Issuer:CN=GeoTrust Primary Certification Authority, O=GeoTrust Inc., C=US, Key type:RSA, Length:2048, Cert Id:-965345157, Valid from:11/27/06, 7:00 AM, Valid until:7/17/36, 6:59 AM</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:04.899121100Z</date>
+  <millis>1696563904899</millis>
+  <nanos>121100</nanos>
+  <sequence>67</sequence>
+  <logger>jdk.event.security</logger>
+  <level>FINE</level>
+  <class>jdk.internal.event.EventHelper</class>
+  <method>logX509CertificateEvent</method>
+  <thread>1</thread>
+  <message>X509Certificate: Alg:SHA384withECDSA, Serial:3cb2f4480a00e2feeb243b5e603ec36b, Subject:CN=GeoTrust Primary Certification Authority - G2, OU=(c) 2007 GeoTrust Inc. - For authorized use only, O=GeoTrust Inc., C=US, Issuer:CN=GeoTrust Primary Certification Authority - G2, OU=(c) 2007 GeoTrust Inc. - For authorized use only, O=GeoTrust Inc., C=US, Key type:EC, Length:384, Cert Id:-1114303822, Valid from:11/5/07, 7:00 AM, Valid until:1/19/38, 6:59 AM</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:04.902121400Z</date>
+  <millis>1696563904902</millis>
+  <nanos>121400</nanos>
+  <sequence>68</sequence>
+  <logger>jdk.event.security</logger>
+  <level>FINE</level>
+  <class>jdk.internal.event.EventHelper</class>
+  <method>logX509CertificateEvent</method>
+  <thread>1</thread>
+  <message>X509Certificate: Alg:SHA256withRSA, Serial:15ac6e9419b2794b41f627a9c3180f1f, Subject:CN=GeoTrust Primary Certification Authority - G3, OU=(c) 2008 GeoTrust Inc. - For authorized use only, O=GeoTrust Inc., C=US, Issuer:CN=GeoTrust Primary Certification Authority - G3, OU=(c) 2008 GeoTrust Inc. - For authorized use only, O=GeoTrust Inc., C=US, Key type:RSA, Length:2048, Cert Id:-1330153758, Valid from:4/2/08, 7:00 AM, Valid until:12/2/37, 6:59 AM</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:04.905118800Z</date>
+  <millis>1696563904905</millis>
+  <nanos>118800</nanos>
+  <sequence>69</sequence>
+  <logger>jdk.event.security</logger>
+  <level>FINE</level>
+  <class>jdk.internal.event.EventHelper</class>
+  <method>logX509CertificateEvent</method>
+  <thread>1</thread>
+  <message>X509Certificate: Alg:SHA1withRSA, Serial:1, Subject:CN=GeoTrust Universal CA, O=GeoTrust Inc., C=US, Issuer:CN=GeoTrust Universal CA, O=GeoTrust Inc., C=US, Key type:RSA, Length:4096, Cert Id:313566089, Valid from:3/4/04, 12:00 PM, Valid until:3/4/29, 12:00 PM</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:04.908117900Z</date>
+  <millis>1696563904908</millis>
+  <nanos>117900</nanos>
+  <sequence>70</sequence>
+  <logger>jdk.event.security</logger>
+  <level>FINE</level>
+  <class>jdk.internal.event.EventHelper</class>
+  <method>logX509CertificateEvent</method>
+  <thread>1</thread>
+  <message>X509Certificate: Alg:SHA1withRSA, Serial:40000000001154b5ac394, Subject:CN=GlobalSign Root CA, OU=Root CA, O=GlobalSign nv-sa, C=BE, Issuer:CN=GlobalSign Root CA, OU=Root CA, O=GlobalSign nv-sa, C=BE, Key type:RSA, Length:2048, Cert Id:536948034, Valid from:9/1/98, 7:00 PM, Valid until:1/28/28, 7:00 PM</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:04.910118600Z</date>
+  <millis>1696563904910</millis>
+  <nanos>118600</nanos>
+  <sequence>71</sequence>
+  <logger>jdk.event.security</logger>
+  <level>FINE</level>
+  <class>jdk.internal.event.EventHelper</class>
+  <method>logX509CertificateEvent</method>
+  <thread>1</thread>
+  <message>X509Certificate: Alg:SHA256withECDSA, Serial:2a38a41c960a04de42b228a50be8349802, Subject:CN=GlobalSign, O=GlobalSign, OU=GlobalSign ECC Root CA - R4, Issuer:CN=GlobalSign, O=GlobalSign, OU=GlobalSign ECC Root CA - R4, Key type:EC, Length:256, Cert Id:-1923273545, Valid from:11/13/12, 7:00 AM, Valid until:1/19/38, 10:14 AM</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:04.912116Z</date>
+  <millis>1696563904912</millis>
+  <nanos>116000</nanos>
+  <sequence>72</sequence>
+  <logger>jdk.event.security</logger>
+  <level>FINE</level>
+  <class>jdk.internal.event.EventHelper</class>
+  <method>logX509CertificateEvent</method>
+  <thread>1</thread>
+  <message>X509Certificate: Alg:SHA384withECDSA, Serial:605949e0262ebb55f90a778a71f94ad86c, Subject:CN=GlobalSign, O=GlobalSign, OU=GlobalSign ECC Root CA - R5, Issuer:CN=GlobalSign, O=GlobalSign, OU=GlobalSign ECC Root CA - R5, Key type:EC, Length:384, Cert Id:1997048439, Valid from:11/13/12, 7:00 AM, Valid until:1/19/38, 10:14 AM</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:04.915115600Z</date>
+  <millis>1696563904915</millis>
+  <nanos>115600</nanos>
+  <sequence>73</sequence>
+  <logger>jdk.event.security</logger>
+  <level>FINE</level>
+  <class>jdk.internal.event.EventHelper</class>
+  <method>logX509CertificateEvent</method>
+  <thread>1</thread>
+  <message>X509Certificate: Alg:SHA256withRSA, Serial:4000000000121585308a2, Subject:CN=GlobalSign, O=GlobalSign, OU=GlobalSign Root CA - R3, Issuer:CN=GlobalSign, O=GlobalSign, OU=GlobalSign Root CA - R3, Key type:RSA, Length:2048, Cert Id:733875591, Valid from:3/18/09, 5:00 PM, Valid until:3/18/29, 5:00 PM</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:04.917117Z</date>
+  <millis>1696563904917</millis>
+  <nanos>117000</nanos>
+  <sequence>74</sequence>
+  <logger>jdk.event.security</logger>
+  <level>FINE</level>
+  <class>jdk.internal.event.EventHelper</class>
+  <method>logX509CertificateEvent</method>
+  <thread>1</thread>
+  <message>X509Certificate: Alg:SHA384withRSA, Serial:45e6bb038333c3856548e6ff4551, Subject:CN=GlobalSign, O=GlobalSign, OU=GlobalSign Root CA - R6, Issuer:CN=GlobalSign, O=GlobalSign, OU=GlobalSign Root CA - R6, Key type:RSA, Length:4096, Cert Id:-506627753, Valid from:12/10/14, 7:00 AM, Valid until:12/10/34, 7:00 AM</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:04.919115200Z</date>
+  <millis>1696563904919</millis>
+  <nanos>115200</nanos>
+  <sequence>75</sequence>
+  <logger>jdk.event.security</logger>
+  <level>FINE</level>
+  <class>jdk.internal.event.EventHelper</class>
+  <method>logX509CertificateEvent</method>
+  <thread>1</thread>
+  <message>X509Certificate: Alg:SHA1withRSA, Serial:0, Subject:OU=Go Daddy Class 2 Certification Authority, O="The Go Daddy Group, Inc.", C=US, Issuer:OU=Go Daddy Class 2 Certification Authority, O="The Go Daddy Group, Inc.", C=US, Key type:RSA, Length:2048, Cert Id:-271444299, Valid from:6/30/04, 12:06 AM, Valid until:6/30/34, 12:06 AM</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:04.921115100Z</date>
+  <millis>1696563904921</millis>
+  <nanos>115100</nanos>
+  <sequence>76</sequence>
+  <logger>jdk.event.security</logger>
+  <level>FINE</level>
+  <class>jdk.internal.event.EventHelper</class>
+  <method>logX509CertificateEvent</method>
+  <thread>1</thread>
+  <message>X509Certificate: Alg:SHA256withRSA, Serial:0, Subject:CN=Go Daddy Root Certificate Authority - G2, O="GoDaddy.com, Inc.", L=Scottsdale, ST=Arizona, C=US, Issuer:CN=Go Daddy Root Certificate Authority - G2, O="GoDaddy.com, Inc.", L=Scottsdale, ST=Arizona, C=US, Key type:RSA, Length:2048, Cert Id:439600313, Valid from:9/1/09, 7:00 AM, Valid until:1/1/38, 6:59 AM</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:04.924114Z</date>
+  <millis>1696563904924</millis>
+  <nanos>114000</nanos>
+  <sequence>77</sequence>
+  <logger>jdk.event.security</logger>
+  <level>FINE</level>
+  <class>jdk.internal.event.EventHelper</class>
+  <method>logX509CertificateEvent</method>
+  <thread>1</thread>
+  <message>X509Certificate: Alg:SHA256withECDSA, Serial:0, Subject:CN=Hellenic Academic and Research Institutions ECC RootCA 2015, O=Hellenic Academic and Research Institutions Cert. Authority, L=Athens, C=GR, Issuer:CN=Hellenic Academic and Research Institutions ECC RootCA 2015, O=Hellenic Academic and Research Institutions Cert. Authority, L=Athens, C=GR, Key type:EC, Length:384, Cert Id:513613456, Valid from:7/7/15, 5:37 PM, Valid until:6/30/40, 5:37 PM</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:04.926115300Z</date>
+  <millis>1696563904926</millis>
+  <nanos>115300</nanos>
+  <sequence>78</sequence>
+  <logger>jdk.event.security</logger>
+  <level>FINE</level>
+  <class>jdk.internal.event.EventHelper</class>
+  <method>logX509CertificateEvent</method>
+  <thread>1</thread>
+  <message>X509Certificate: Alg:SHA256withRSA, Serial:0, Subject:CN=Hellenic Academic and Research Institutions RootCA 2015, O=Hellenic Academic and Research Institutions Cert. Authority, L=Athens, C=GR, Issuer:CN=Hellenic Academic and Research Institutions RootCA 2015, O=Hellenic Academic and Research Institutions Cert. Authority, L=Athens, C=GR, Key type:RSA, Length:4096, Cert Id:-802976731, Valid from:7/7/15, 5:11 PM, Valid until:6/30/40, 5:11 PM</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:04.928111200Z</date>
+  <millis>1696563904928</millis>
+  <nanos>111200</nanos>
+  <sequence>79</sequence>
+  <logger>jdk.event.security</logger>
+  <level>FINE</level>
+  <class>jdk.internal.event.EventHelper</class>
+  <method>logX509CertificateEvent</method>
+  <thread>1</thread>
+  <message>X509Certificate: Alg:SHA256withRSA, Serial:a0142800000014523c844b500000002, Subject:CN=IdenTrust Commercial Root CA 1, O=IdenTrust, C=US, Issuer:CN=IdenTrust Commercial Root CA 1, O=IdenTrust, C=US, Key type:RSA, Length:4096, Cert Id:1232565210, Valid from:1/17/14, 1:12 AM, Valid until:1/17/34, 1:12 AM</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:04.930111900Z</date>
+  <millis>1696563904930</millis>
+  <nanos>111900</nanos>
+  <sequence>80</sequence>
+  <logger>jdk.event.security</logger>
+  <level>FINE</level>
+  <class>jdk.internal.event.EventHelper</class>
+  <method>logX509CertificateEvent</method>
+  <thread>1</thread>
+  <message>X509Certificate: Alg:SHA256withRSA, Serial:a0142800000014523cf467c00000002, Subject:CN=IdenTrust Public Sector Root CA 1, O=IdenTrust, C=US, Issuer:CN=IdenTrust Public Sector Root CA 1, O=IdenTrust, C=US, Key type:RSA, Length:4096, Cert Id:2123370772, Valid from:1/17/14, 12:53 AM, Valid until:1/17/34, 12:53 AM</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:04.934109800Z</date>
+  <millis>1696563904934</millis>
+  <nanos>109800</nanos>
+  <sequence>81</sequence>
+  <logger>jdk.event.security</logger>
+  <level>FINE</level>
+  <class>jdk.internal.event.EventHelper</class>
+  <method>logX509CertificateEvent</method>
+  <thread>1</thread>
+  <message>X509Certificate: Alg:SHA256withRSA, Serial:8210cfb0d240e3594463e0bb63828b00, Subject:CN=ISRG Root X1, O=Internet Security Research Group, C=US, Issuer:CN=ISRG Root X1, O=Internet Security Research Group, C=US, Key type:RSA, Length:4096, Cert Id:1521974916, Valid from:6/4/15, 6:04 PM, Valid until:6/4/35, 6:04 PM</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:04.936110300Z</date>
+  <millis>1696563904936</millis>
+  <nanos>110300</nanos>
+  <sequence>82</sequence>
+  <logger>jdk.event.security</logger>
+  <level>FINE</level>
+  <class>jdk.internal.event.EventHelper</class>
+  <method>logX509CertificateEvent</method>
+  <thread>1</thread>
+  <message>X509Certificate: Alg:SHA256withRSA, Serial:a7ea6df4b449eda6a24859ee6b815d3167fbbb1, Subject:CN=LuxTrust Global Root 2, O=LuxTrust S.A., C=LU, Issuer:CN=LuxTrust Global Root 2, O=LuxTrust S.A., C=LU, Key type:RSA, Length:4096, Cert Id:-1239330694, Valid from:3/5/15, 8:21 PM, Valid until:3/5/35, 8:21 PM</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:04.938107700Z</date>
+  <millis>1696563904938</millis>
+  <nanos>107700</nanos>
+  <sequence>83</sequence>
+  <logger>jdk.event.security</logger>
+  <level>FINE</level>
+  <class>jdk.internal.event.EventHelper</class>
+  <method>logX509CertificateEvent</method>
+  <thread>1</thread>
+  <message>X509Certificate: Alg:SHA256withRSA, Serial:bb8, Subject:CN=LuxTrust Global Root, O=LuxTrust s.a., C=LU, Issuer:CN=LuxTrust Global Root, O=LuxTrust s.a., C=LU, Key type:RSA, Length:2048, Cert Id:1714819687, Valid from:3/17/11, 4:51 PM, Valid until:3/17/21, 4:51 PM</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:04.941108300Z</date>
+  <millis>1696563904941</millis>
+  <nanos>108300</nanos>
+  <sequence>84</sequence>
+  <logger>jdk.event.security</logger>
+  <level>FINE</level>
+  <class>jdk.internal.event.EventHelper</class>
+  <method>logX509CertificateEvent</method>
+  <thread>1</thread>
+  <message>X509Certificate: Alg:SHA1withRSA, Serial:3ab6508b, Subject:CN=QuoVadis Root Certification Authority, OU=Root Certification Authority, O=QuoVadis Limited, C=BM, Issuer:CN=QuoVadis Root Certification Authority, OU=Root Certification Authority, O=QuoVadis Limited, C=BM, Key type:RSA, Length:2048, Cert Id:-1882405602, Valid from:3/20/01, 1:33 AM, Valid until:3/18/21, 1:33 AM</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:04.943107700Z</date>
+  <millis>1696563904943</millis>
+  <nanos>107700</nanos>
+  <sequence>85</sequence>
+  <logger>jdk.event.security</logger>
+  <level>FINE</level>
+  <class>jdk.internal.event.EventHelper</class>
+  <method>logX509CertificateEvent</method>
+  <thread>1</thread>
+  <message>X509Certificate: Alg:SHA256withRSA, Serial:78585f2ead2c194be3370735341328b596d46593, Subject:CN=QuoVadis Root CA 1 G3, O=QuoVadis Limited, C=BM, Issuer:CN=QuoVadis Root CA 1 G3, O=QuoVadis Limited, C=BM, Key type:RSA, Length:4096, Cert Id:-762436034, Valid from:1/13/12, 12:27 AM, Valid until:1/13/42, 12:27 AM</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:04.945106400Z</date>
+  <millis>1696563904945</millis>
+  <nanos>106400</nanos>
+  <sequence>86</sequence>
+  <logger>jdk.event.security</logger>
+  <level>FINE</level>
+  <class>jdk.internal.event.EventHelper</class>
+  <method>logX509CertificateEvent</method>
+  <thread>1</thread>
+  <message>X509Certificate: Alg:SHA1withRSA, Serial:509, Subject:CN=QuoVadis Root CA 2, O=QuoVadis Limited, C=BM, Issuer:CN=QuoVadis Root CA 2, O=QuoVadis Limited, C=BM, Key type:RSA, Length:4096, Cert Id:338250116, Valid from:11/25/06, 1:27 AM, Valid until:11/25/31, 1:23 AM</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:04.949105Z</date>
+  <millis>1696563904949</millis>
+  <nanos>105000</nanos>
+  <sequence>87</sequence>
+  <logger>jdk.event.security</logger>
+  <level>FINE</level>
+  <class>jdk.internal.event.EventHelper</class>
+  <method>logX509CertificateEvent</method>
+  <thread>1</thread>
+  <message>X509Certificate: Alg:SHA256withRSA, Serial:445734245b81899b35f2ceb82b3b5ba726f07528, Subject:CN=QuoVadis Root CA 2 G3, O=QuoVadis Limited, C=BM, Issuer:CN=QuoVadis Root CA 2 G3, O=QuoVadis Limited, C=BM, Key type:RSA, Length:4096, Cert Id:696763521, Valid from:1/13/12, 1:59 AM, Valid until:1/13/42, 1:59 AM</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:04.951104400Z</date>
+  <millis>1696563904951</millis>
+  <nanos>104400</nanos>
+  <sequence>88</sequence>
+  <logger>jdk.event.security</logger>
+  <level>FINE</level>
+  <class>jdk.internal.event.EventHelper</class>
+  <method>logX509CertificateEvent</method>
+  <thread>1</thread>
+  <message>X509Certificate: Alg:SHA1withRSA, Serial:5c6, Subject:CN=QuoVadis Root CA 3, O=QuoVadis Limited, C=BM, Issuer:CN=QuoVadis Root CA 3, O=QuoVadis Limited, C=BM, Key type:RSA, Length:4096, Cert Id:1470392860, Valid from:11/25/06, 2:11 AM, Valid until:11/25/31, 2:06 AM</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:04.953103200Z</date>
+  <millis>1696563904953</millis>
+  <nanos>103200</nanos>
+  <sequence>89</sequence>
+  <logger>jdk.event.security</logger>
+  <level>FINE</level>
+  <class>jdk.internal.event.EventHelper</class>
+  <method>logX509CertificateEvent</method>
+  <thread>1</thread>
+  <message>X509Certificate: Alg:SHA256withRSA, Serial:2ef59b0228a7db7affd5a3a9eebd03a0cf126a1d, Subject:CN=QuoVadis Root CA 3 G3, O=QuoVadis Limited, C=BM, Issuer:CN=QuoVadis Root CA 3 G3, O=QuoVadis Limited, C=BM, Key type:RSA, Length:4096, Cert Id:-705622991, Valid from:1/13/12, 3:26 AM, Valid until:1/13/42, 3:26 AM</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:04.956104800Z</date>
+  <millis>1696563904956</millis>
+  <nanos>104800</nanos>
+  <sequence>90</sequence>
+  <logger>jdk.event.security</logger>
+  <level>FINE</level>
+  <class>jdk.internal.event.EventHelper</class>
+  <method>logX509CertificateEvent</method>
+  <thread>1</thread>
+  <message>X509Certificate: Alg:SHA1withRSA, Serial:0, Subject:OU=Security Communication RootCA1, O=SECOM Trust.net, C=JP, Issuer:OU=Security Communication RootCA1, O=SECOM Trust.net, C=JP, Key type:RSA, Length:2048, Cert Id:1802358121, Valid from:9/30/03, 11:20 AM, Valid until:9/30/23, 11:20 AM</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:04.958101700Z</date>
+  <millis>1696563904958</millis>
+  <nanos>101700</nanos>
+  <sequence>91</sequence>
+  <logger>jdk.event.security</logger>
+  <level>FINE</level>
+  <class>jdk.internal.event.EventHelper</class>
+  <method>logX509CertificateEvent</method>
+  <thread>1</thread>
+  <message>X509Certificate: Alg:SHA256withRSA, Serial:0, Subject:OU=Security Communication RootCA2, O="SECOM Trust Systems CO.,LTD.", C=JP, Issuer:OU=Security Communication RootCA2, O="SECOM Trust Systems CO.,LTD.", C=JP, Key type:RSA, Length:2048, Cert Id:1521072570, Valid from:5/29/09, 12:00 PM, Valid until:5/29/29, 12:00 PM</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:04.960102200Z</date>
+  <millis>1696563904960</millis>
+  <nanos>102200</nanos>
+  <sequence>92</sequence>
+  <logger>jdk.event.security</logger>
+  <level>FINE</level>
+  <class>jdk.internal.event.EventHelper</class>
+  <method>logX509CertificateEvent</method>
+  <thread>1</thread>
+  <message>X509Certificate: Alg:SHA1withRSA, Serial:cf08e5c0816a5ad427ff0eb271859d0, Subject:CN=SecureTrust CA, O=SecureTrust Corporation, C=US, Issuer:CN=SecureTrust CA, O=SecureTrust Corporation, C=US, Key type:RSA, Length:2048, Cert Id:2034155325, Valid from:11/8/06, 2:31 AM, Valid until:1/1/30, 2:40 AM</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:04.962101200Z</date>
+  <millis>1696563904962</millis>
+  <nanos>101200</nanos>
+  <sequence>93</sequence>
+  <logger>jdk.event.security</logger>
+  <level>FINE</level>
+  <class>jdk.internal.event.EventHelper</class>
+  <method>logX509CertificateEvent</method>
+  <thread>1</thread>
+  <message>X509Certificate: Alg:SHA256withECDSA, Serial:75e6dfcbc1685ba8, Subject:CN=SSL.com Root Certification Authority ECC, O=SSL Corporation, L=Houston, ST=Texas, C=US, Issuer:CN=SSL.com Root Certification Authority ECC, O=SSL Corporation, L=Houston, ST=Texas, C=US, Key type:EC, Length:384, Cert Id:-1368293613, Valid from:2/13/16, 1:14 AM, Valid until:2/13/41, 1:14 AM</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:04.964100400Z</date>
+  <millis>1696563904964</millis>
+  <nanos>100400</nanos>
+  <sequence>94</sequence>
+  <logger>jdk.event.security</logger>
+  <level>FINE</level>
+  <class>jdk.internal.event.EventHelper</class>
+  <method>logX509CertificateEvent</method>
+  <thread>1</thread>
+  <message>X509Certificate: Alg:SHA256withRSA, Serial:56b629cd34bc78f6, Subject:CN=SSL.com EV Root Certification Authority RSA R2, O=SSL Corporation, L=Houston, ST=Texas, C=US, Issuer:CN=SSL.com EV Root Certification Authority RSA R2, O=SSL Corporation, L=Houston, ST=Texas, C=US, Key type:RSA, Length:4096, Cert Id:1381862403, Valid from:6/1/17, 1:14 AM, Valid until:5/31/42, 1:14 AM</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:04.967099800Z</date>
+  <millis>1696563904967</millis>
+  <nanos>99800</nanos>
+  <sequence>95</sequence>
+  <logger>jdk.event.security</logger>
+  <level>FINE</level>
+  <class>jdk.internal.event.EventHelper</class>
+  <method>logX509CertificateEvent</method>
+  <thread>1</thread>
+  <message>X509Certificate: Alg:SHA256withRSA, Serial:7b2c9bd316803299, Subject:CN=SSL.com Root Certification Authority RSA, O=SSL Corporation, L=Houston, ST=Texas, C=US, Issuer:CN=SSL.com Root Certification Authority RSA, O=SSL Corporation, L=Houston, ST=Texas, C=US, Key type:RSA, Length:4096, Cert Id:156725711, Valid from:2/13/16, 12:39 AM, Valid until:2/13/41, 12:39 AM</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:04.970097900Z</date>
+  <millis>1696563904970</millis>
+  <nanos>97900</nanos>
+  <sequence>96</sequence>
+  <logger>jdk.event.security</logger>
+  <level>FINE</level>
+  <class>jdk.internal.event.EventHelper</class>
+  <method>logX509CertificateEvent</method>
+  <thread>1</thread>
+  <message>X509Certificate: Alg:SHA1withRSA, Serial:0, Subject:OU=Starfield Class 2 Certification Authority, O="Starfield Technologies, Inc.", C=US, Issuer:OU=Starfield Class 2 Certification Authority, O="Starfield Technologies, Inc.", C=US, Key type:RSA, Length:2048, Cert Id:1825617644, Valid from:6/30/04, 12:39 AM, Valid until:6/30/34, 12:39 AM</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:04.972099200Z</date>
+  <millis>1696563904972</millis>
+  <nanos>99200</nanos>
+  <sequence>97</sequence>
+  <logger>jdk.event.security</logger>
+  <level>FINE</level>
+  <class>jdk.internal.event.EventHelper</class>
+  <method>logX509CertificateEvent</method>
+  <thread>1</thread>
+  <message>X509Certificate: Alg:SHA256withRSA, Serial:0, Subject:CN=Starfield Root Certificate Authority - G2, O="Starfield Technologies, Inc.", L=Scottsdale, ST=Arizona, C=US, Issuer:CN=Starfield Root Certificate Authority - G2, O="Starfield Technologies, Inc.", L=Scottsdale, ST=Arizona, C=US, Key type:RSA, Length:2048, Cert Id:-1026641587, Valid from:9/1/09, 7:00 AM, Valid until:1/1/38, 6:59 AM</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:04.975097400Z</date>
+  <millis>1696563904975</millis>
+  <nanos>97400</nanos>
+  <sequence>98</sequence>
+  <logger>jdk.event.security</logger>
+  <level>FINE</level>
+  <class>jdk.internal.event.EventHelper</class>
+  <method>logX509CertificateEvent</method>
+  <thread>1</thread>
+  <message>X509Certificate: Alg:SHA256withRSA, Serial:0, Subject:CN=Starfield Services Root Certificate Authority - G2, O="Starfield Technologies, Inc.", L=Scottsdale, ST=Arizona, C=US, Issuer:CN=Starfield Services Root Certificate Authority - G2, O="Starfield Technologies, Inc.", L=Scottsdale, ST=Arizona, C=US, Key type:RSA, Length:2048, Cert Id:1964785574, Valid from:9/1/09, 7:00 AM, Valid until:1/1/38, 6:59 AM</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:04.977095800Z</date>
+  <millis>1696563904977</millis>
+  <nanos>95800</nanos>
+  <sequence>99</sequence>
+  <logger>jdk.event.security</logger>
+  <level>FINE</level>
+  <class>jdk.internal.event.EventHelper</class>
+  <method>logX509CertificateEvent</method>
+  <thread>1</thread>
+  <message>X509Certificate: Alg:SHA1withRSA, Serial:bb401c43f55e4fb0, Subject:CN=SwissSign Gold CA - G2, O=SwissSign AG, C=CH, Issuer:CN=SwissSign Gold CA - G2, O=SwissSign AG, C=CH, Key type:RSA, Length:4096, Cert Id:1516221943, Valid from:10/25/06, 3:30 PM, Valid until:10/25/36, 3:30 PM</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:04.979093900Z</date>
+  <millis>1696563904979</millis>
+  <nanos>93900</nanos>
+  <sequence>100</sequence>
+  <logger>jdk.event.security</logger>
+  <level>FINE</level>
+  <class>jdk.internal.event.EventHelper</class>
+  <method>logX509CertificateEvent</method>
+  <thread>1</thread>
+  <message>X509Certificate: Alg:SHA1withRSA, Serial:4eb200670c035d4f, Subject:CN=SwissSign Platinum CA - G2, O=SwissSign AG, C=CH, Issuer:CN=SwissSign Platinum CA - G2, O=SwissSign AG, C=CH, Key type:RSA, Length:4096, Cert Id:771312514, Valid from:10/25/06, 3:36 PM, Valid until:10/25/36, 3:36 PM</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:04.986101700Z</date>
+  <millis>1696563904986</millis>
+  <nanos>101700</nanos>
+  <sequence>101</sequence>
+  <logger>jdk.event.security</logger>
+  <level>FINE</level>
+  <class>jdk.internal.event.EventHelper</class>
+  <method>logX509CertificateEvent</method>
+  <thread>1</thread>
+  <message>X509Certificate: Alg:SHA1withRSA, Serial:4f1bd42f54bb2f4b, Subject:CN=SwissSign Silver CA - G2, O=SwissSign AG, C=CH, Issuer:CN=SwissSign Silver CA - G2, O=SwissSign AG, C=CH, Key type:RSA, Length:4096, Cert Id:126726124, Valid from:10/25/06, 3:32 PM, Valid until:10/25/36, 3:32 PM</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:04.988100800Z</date>
+  <millis>1696563904988</millis>
+  <nanos>100800</nanos>
+  <sequence>102</sequence>
+  <logger>jdk.event.security</logger>
+  <level>FINE</level>
+  <class>jdk.internal.event.EventHelper</class>
+  <method>logX509CertificateEvent</method>
+  <thread>1</thread>
+  <message>X509Certificate: Alg:SHA1withRSA, Serial:95be16a0f72e46f17b398272fa8bcd96, Subject:CN=TeliaSonera Root CA v1, O=TeliaSonera, Issuer:CN=TeliaSonera Root CA v1, O=TeliaSonera, Key type:RSA, Length:4096, Cert Id:1495358374, Valid from:10/18/07, 7:00 PM, Valid until:10/18/32, 7:00 PM</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:04.990100700Z</date>
+  <millis>1696563904990</millis>
+  <nanos>100700</nanos>
+  <sequence>103</sequence>
+  <logger>jdk.event.security</logger>
+  <level>FINE</level>
+  <class>jdk.internal.event.EventHelper</class>
+  <method>logX509CertificateEvent</method>
+  <thread>1</thread>
+  <message>X509Certificate: Alg:SHA1withRSA, Serial:344ed55720d5edec49f42fce37db2b6d, Subject:CN=thawte Primary Root CA, OU="(c) 2006 thawte, Inc. - For authorized use only", OU=Certification Services Division, O="thawte, Inc.", C=US, Issuer:CN=thawte Primary Root CA, OU="(c) 2006 thawte, Inc. - For authorized use only", OU=Certification Services Division, O="thawte, Inc.", C=US, Key type:RSA, Length:2048, Cert Id:643000026, Valid from:11/17/06, 7:00 AM, Valid until:7/17/36, 6:59 AM</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:04.992099900Z</date>
+  <millis>1696563904992</millis>
+  <nanos>99900</nanos>
+  <sequence>104</sequence>
+  <logger>jdk.event.security</logger>
+  <level>FINE</level>
+  <class>jdk.internal.event.EventHelper</class>
+  <method>logX509CertificateEvent</method>
+  <thread>1</thread>
+  <message>X509Certificate: Alg:SHA384withECDSA, Serial:35fc265cd9844fc93d263d579baed756, Subject:CN=thawte Primary Root CA - G2, OU="(c) 2007 thawte, Inc. - For authorized use only", O="thawte, Inc.", C=US, Issuer:CN=thawte Primary Root CA - G2, OU="(c) 2007 thawte, Inc. - For authorized use only", O="thawte, Inc.", C=US, Key type:EC, Length:384, Cert Id:2068083090, Valid from:11/5/07, 7:00 AM, Valid until:1/19/38, 6:59 AM</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:04.995097400Z</date>
+  <millis>1696563904995</millis>
+  <nanos>97400</nanos>
+  <sequence>105</sequence>
+  <logger>jdk.event.security</logger>
+  <level>FINE</level>
+  <class>jdk.internal.event.EventHelper</class>
+  <method>logX509CertificateEvent</method>
+  <thread>1</thread>
+  <message>X509Certificate: Alg:SHA256withRSA, Serial:600197b746a7eab4b49ad64b2ff790fb, Subject:CN=thawte Primary Root CA - G3, OU="(c) 2008 thawte, Inc. - For authorized use only", OU=Certification Services Division, O="thawte, Inc.", C=US, Issuer:CN=thawte Primary Root CA - G3, OU="(c) 2008 thawte, Inc. - For authorized use only", OU=Certification Services Division, O="thawte, Inc.", C=US, Key type:RSA, Length:2048, Cert Id:1032730720, Valid from:4/2/08, 7:00 AM, Valid until:12/2/37, 6:59 AM</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:04.999609600Z</date>
+  <millis>1696563904999</millis>
+  <nanos>609600</nanos>
+  <sequence>106</sequence>
+  <logger>jdk.event.security</logger>
+  <level>FINE</level>
+  <class>jdk.internal.event.EventHelper</class>
+  <method>logX509CertificateEvent</method>
+  <thread>1</thread>
+  <message>X509Certificate: Alg:SHA256withRSA, Serial:1, Subject:CN=T-TeleSec GlobalRoot Class 2, OU=T-Systems Trust Center, O=T-Systems Enterprise Services GmbH, C=DE, Issuer:CN=T-TeleSec GlobalRoot Class 2, OU=T-Systems Trust Center, O=T-Systems Enterprise Services GmbH, C=DE, Key type:RSA, Length:2048, Cert Id:-1238464039, Valid from:10/1/08, 5:40 PM, Valid until:10/2/33, 6:59 AM</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:05.002606300Z</date>
+  <millis>1696563905002</millis>
+  <nanos>606300</nanos>
+  <sequence>107</sequence>
+  <logger>jdk.event.security</logger>
+  <level>FINE</level>
+  <class>jdk.internal.event.EventHelper</class>
+  <method>logX509CertificateEvent</method>
+  <thread>1</thread>
+  <message>X509Certificate: Alg:SHA256withRSA, Serial:1, Subject:CN=T-TeleSec GlobalRoot Class 3, OU=T-Systems Trust Center, O=T-Systems Enterprise Services GmbH, C=DE, Issuer:CN=T-TeleSec GlobalRoot Class 3, OU=T-Systems Trust Center, O=T-Systems Enterprise Services GmbH, C=DE, Key type:RSA, Length:2048, Cert Id:1894096264, Valid from:10/1/08, 5:29 PM, Valid until:10/2/33, 6:59 AM</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:05.004604900Z</date>
+  <millis>1696563905004</millis>
+  <nanos>604900</nanos>
+  <sequence>108</sequence>
+  <logger>jdk.event.security</logger>
+  <level>FINE</level>
+  <class>jdk.internal.event.EventHelper</class>
+  <method>logX509CertificateEvent</method>
+  <thread>1</thread>
+  <message>X509Certificate: Alg:SHA384withECDSA, Serial:5c8b99c55a94c5d27156decd8980cc26, Subject:CN=USERTrust ECC Certification Authority, O=The USERTRUST Network, L=Jersey City, ST=New Jersey, C=US, Issuer:CN=USERTrust ECC Certification Authority, O=The USERTRUST Network, L=Jersey City, ST=New Jersey, C=US, Key type:EC, Length:384, Cert Id:-965679910, Valid from:2/1/10, 7:00 AM, Valid until:1/19/38, 6:59 AM</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:05.008603500Z</date>
+  <millis>1696563905008</millis>
+  <nanos>603500</nanos>
+  <sequence>109</sequence>
+  <logger>jdk.event.security</logger>
+  <level>FINE</level>
+  <class>jdk.internal.event.EventHelper</class>
+  <method>logX509CertificateEvent</method>
+  <thread>1</thread>
+  <message>X509Certificate: Alg:SHA384withRSA, Serial:1fd6d30fca3ca51a81bbc640e35032d, Subject:CN=USERTrust RSA Certification Authority, O=The USERTRUST Network, L=Jersey City, ST=New Jersey, C=US, Issuer:CN=USERTrust RSA Certification Authority, O=The USERTRUST Network, L=Jersey City, ST=New Jersey, C=US, Key type:RSA, Length:4096, Cert Id:-347365895, Valid from:2/1/10, 7:00 AM, Valid until:1/19/38, 6:59 AM</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:05.011603Z</date>
+  <millis>1696563905011</millis>
+  <nanos>603000</nanos>
+  <sequence>110</sequence>
+  <logger>jdk.event.security</logger>
+  <level>FINE</level>
+  <class>jdk.internal.event.EventHelper</class>
+  <method>logX509CertificateEvent</method>
+  <thread>1</thread>
+  <message>X509Certificate: Alg:SHA1withRSA, Serial:44be0c8b500024b411d3362de0b35f1b, Subject:CN=UTN-USERFirst-Object, OU=http://www.usertrust.com, O=The USERTRUST Network, L=Salt Lake City, ST=UT, C=US, Issuer:CN=UTN-USERFirst-Object, OU=http://www.usertrust.com, O=The USERTRUST Network, L=Salt Lake City, ST=UT, C=US, Key type:RSA, Length:2048, Cert Id:-297053428, Valid from:7/10/99, 1:31 AM, Valid until:7/10/19, 1:40 AM</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:05.014603200Z</date>
+  <millis>1696563905014</millis>
+  <nanos>603200</nanos>
+  <sequence>111</sequence>
+  <logger>jdk.event.security</logger>
+  <level>FINE</level>
+  <class>jdk.internal.event.EventHelper</class>
+  <method>logX509CertificateEvent</method>
+  <thread>1</thread>
+  <message>X509Certificate: Alg:SHA1withRSA, Serial:9b7e0649a33e62b9d5ee90487129ef57, Subject:CN=VeriSign Class 3 Public Primary Certification Authority - G3, OU="(c) 1999 VeriSign, Inc. - For authorized use only", OU=VeriSign Trust Network, O="VeriSign, Inc.", C=US, Issuer:CN=VeriSign Class 3 Public Primary Certification Authority - G3, OU="(c) 1999 VeriSign, Inc. - For authorized use only", OU=VeriSign Trust Network, O="VeriSign, Inc.", C=US, Key type:RSA, Length:2048, Cert Id:2057300190, Valid from:10/1/99, 7:00 AM, Valid until:7/17/36, 6:59 AM</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:05.019600100Z</date>
+  <millis>1696563905019</millis>
+  <nanos>600100</nanos>
+  <sequence>112</sequence>
+  <logger>jdk.event.security</logger>
+  <level>FINE</level>
+  <class>jdk.internal.event.EventHelper</class>
+  <method>logX509CertificateEvent</method>
+  <thread>1</thread>
+  <message>X509Certificate: Alg:SHA384withECDSA, Serial:2f80fe238c0e220f486712289187acb3, Subject:CN=VeriSign Class 3 Public Primary Certification Authority - G4, OU="(c) 2007 VeriSign, Inc. - For authorized use only", OU=VeriSign Trust Network, O="VeriSign, Inc.", C=US, Issuer:CN=VeriSign Class 3 Public Primary Certification Authority - G4, OU="(c) 2007 VeriSign, Inc. - For authorized use only", OU=VeriSign Trust Network, O="VeriSign, Inc.", C=US, Key type:EC, Length:384, Cert Id:-131493977, Valid from:11/5/07, 7:00 AM, Valid until:1/19/38, 6:59 AM</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:05.022599300Z</date>
+  <millis>1696563905022</millis>
+  <nanos>599300</nanos>
+  <sequence>113</sequence>
+  <logger>jdk.event.security</logger>
+  <level>FINE</level>
+  <class>jdk.internal.event.EventHelper</class>
+  <method>logX509CertificateEvent</method>
+  <thread>1</thread>
+  <message>X509Certificate: Alg:SHA1withRSA, Serial:18dad19e267de8bb4a2158cdcc6b3b4a, Subject:CN=VeriSign Class 3 Public Primary Certification Authority - G5, OU="(c) 2006 VeriSign, Inc. - For authorized use only", OU=VeriSign Trust Network, O="VeriSign, Inc.", C=US, Issuer:CN=VeriSign Class 3 Public Primary Certification Authority - G5, OU="(c) 2006 VeriSign, Inc. - For authorized use only", OU=VeriSign Trust Network, O="VeriSign, Inc.", C=US, Key type:RSA, Length:2048, Cert Id:303010488, Valid from:11/8/06, 7:00 AM, Valid until:7/17/36, 6:59 AM</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:05.024598800Z</date>
+  <millis>1696563905024</millis>
+  <nanos>598800</nanos>
+  <sequence>114</sequence>
+  <logger>jdk.event.security</logger>
+  <level>FINE</level>
+  <class>jdk.internal.event.EventHelper</class>
+  <method>logX509CertificateEvent</method>
+  <thread>1</thread>
+  <message>X509Certificate: Alg:SHA256withRSA, Serial:401ac46421b31321030ebbe4121ac51d, Subject:CN=VeriSign Universal Root Certification Authority, OU="(c) 2008 VeriSign, Inc. - For authorized use only", OU=VeriSign Trust Network, O="VeriSign, Inc.", C=US, Issuer:CN=VeriSign Universal Root Certification Authority, OU="(c) 2008 VeriSign, Inc. - For authorized use only", OU=VeriSign Trust Network, O="VeriSign, Inc.", C=US, Key type:RSA, Length:2048, Cert Id:-1976681486, Valid from:4/2/08, 7:00 AM, Valid until:12/2/37, 6:59 AM</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:05.027597300Z</date>
+  <millis>1696563905027</millis>
+  <nanos>597300</nanos>
+  <sequence>115</sequence>
+  <logger>jdk.event.security</logger>
+  <level>FINE</level>
+  <class>jdk.internal.event.EventHelper</class>
+  <method>logX509CertificateEvent</method>
+  <thread>1</thread>
+  <message>X509Certificate: Alg:SHA1withRSA, Serial:50946cec18ead59c4dd597ef758fa0ad, Subject:CN=XRamp Global Certification Authority, O=XRamp Security Services Inc, OU=www.xrampsecurity.com, C=US, Issuer:CN=XRamp Global Certification Authority, O=XRamp Security Services Inc, OU=www.xrampsecurity.com, C=US, Key type:RSA, Length:2048, Cert Id:-952474086, Valid from:11/2/04, 12:14 AM, Valid until:1/1/35, 12:37 PM</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:05.215397400Z</date>
+  <millis>1696563905215</millis>
+  <nanos>397400</nanos>
+  <sequence>116</sequence>
+  <logger>io.netty.handler.ssl.JdkSslContext</logger>
+  <level>FINE</level>
+  <class>io.netty.handler.ssl.JdkSslContext</class>
+  <method>&lt;clinit&gt;</method>
+  <thread>1</thread>
+  <message>Default protocols (JDK): [TLSv1.3, TLSv1.2] </message>
+</record>
+<record>
+  <date>2023-10-06T03:45:05.217396200Z</date>
+  <millis>1696563905217</millis>
+  <nanos>396200</nanos>
+  <sequence>117</sequence>
+  <logger>io.netty.handler.ssl.JdkSslContext</logger>
+  <level>FINE</level>
+  <class>io.netty.handler.ssl.JdkSslContext</class>
+  <method>&lt;clinit&gt;</method>
+  <thread>1</thread>
+  <message>Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:05.269380400Z</date>
+  <millis>1696563905269</millis>
+  <nanos>380400</nanos>
+  <sequence>118</sequence>
+  <logger>io.netty.channel.MultithreadEventLoopGroup</logger>
+  <level>FINE</level>
+  <class>io.netty.channel.MultithreadEventLoopGroup</class>
+  <method>&lt;clinit&gt;</method>
+  <thread>1</thread>
+  <message>-Dio.netty.eventLoopThreads: 8</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:05.285396700Z</date>
+  <millis>1696563905285</millis>
+  <nanos>396700</nanos>
+  <sequence>119</sequence>
+  <logger>io.netty.channel.nio.NioEventLoop</logger>
+  <level>FINE</level>
+  <class>io.netty.channel.nio.NioEventLoop</class>
+  <method>&lt;clinit&gt;</method>
+  <thread>1</thread>
+  <message>-Dio.netty.noKeySetOptimization: false</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:05.286394500Z</date>
+  <millis>1696563905286</millis>
+  <nanos>394500</nanos>
+  <sequence>120</sequence>
+  <logger>io.netty.channel.nio.NioEventLoop</logger>
+  <level>FINE</level>
+  <class>io.netty.channel.nio.NioEventLoop</class>
+  <method>&lt;clinit&gt;</method>
+  <thread>1</thread>
+  <message>-Dio.netty.selectorAutoRebuildThreshold: 512</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:05.361881500Z</date>
+  <millis>1696563905361</millis>
+  <nanos>881500</nanos>
+  <sequence>121</sequence>
+  <logger>io.netty.buffer.PooledByteBufAllocator</logger>
+  <level>FINE</level>
+  <class>io.netty.buffer.PooledByteBufAllocator</class>
+  <method>&lt;clinit&gt;</method>
+  <thread>1</thread>
+  <message>-Dio.netty.allocator.numHeapArenas: 8</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:05.361881500Z</date>
+  <millis>1696563905361</millis>
+  <nanos>881500</nanos>
+  <sequence>122</sequence>
+  <logger>io.netty.buffer.PooledByteBufAllocator</logger>
+  <level>FINE</level>
+  <class>io.netty.buffer.PooledByteBufAllocator</class>
+  <method>&lt;clinit&gt;</method>
+  <thread>1</thread>
+  <message>-Dio.netty.allocator.numDirectArenas: 8</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:05.362876900Z</date>
+  <millis>1696563905362</millis>
+  <nanos>876900</nanos>
+  <sequence>123</sequence>
+  <logger>io.netty.buffer.PooledByteBufAllocator</logger>
+  <level>FINE</level>
+  <class>io.netty.buffer.PooledByteBufAllocator</class>
+  <method>&lt;clinit&gt;</method>
+  <thread>1</thread>
+  <message>-Dio.netty.allocator.pageSize: 8192</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:05.362876900Z</date>
+  <millis>1696563905362</millis>
+  <nanos>876900</nanos>
+  <sequence>124</sequence>
+  <logger>io.netty.buffer.PooledByteBufAllocator</logger>
+  <level>FINE</level>
+  <class>io.netty.buffer.PooledByteBufAllocator</class>
+  <method>&lt;clinit&gt;</method>
+  <thread>1</thread>
+  <message>-Dio.netty.allocator.maxOrder: 9</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:05.363877700Z</date>
+  <millis>1696563905363</millis>
+  <nanos>877700</nanos>
+  <sequence>125</sequence>
+  <logger>io.netty.buffer.PooledByteBufAllocator</logger>
+  <level>FINE</level>
+  <class>io.netty.buffer.PooledByteBufAllocator</class>
+  <method>&lt;clinit&gt;</method>
+  <thread>1</thread>
+  <message>-Dio.netty.allocator.chunkSize: 4194304</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:05.363877700Z</date>
+  <millis>1696563905363</millis>
+  <nanos>877700</nanos>
+  <sequence>126</sequence>
+  <logger>io.netty.buffer.PooledByteBufAllocator</logger>
+  <level>FINE</level>
+  <class>io.netty.buffer.PooledByteBufAllocator</class>
+  <method>&lt;clinit&gt;</method>
+  <thread>1</thread>
+  <message>-Dio.netty.allocator.smallCacheSize: 256</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:05.364877900Z</date>
+  <millis>1696563905364</millis>
+  <nanos>877900</nanos>
+  <sequence>127</sequence>
+  <logger>io.netty.buffer.PooledByteBufAllocator</logger>
+  <level>FINE</level>
+  <class>io.netty.buffer.PooledByteBufAllocator</class>
+  <method>&lt;clinit&gt;</method>
+  <thread>1</thread>
+  <message>-Dio.netty.allocator.normalCacheSize: 64</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:05.365876100Z</date>
+  <millis>1696563905365</millis>
+  <nanos>876100</nanos>
+  <sequence>128</sequence>
+  <logger>io.netty.buffer.PooledByteBufAllocator</logger>
+  <level>FINE</level>
+  <class>io.netty.buffer.PooledByteBufAllocator</class>
+  <method>&lt;clinit&gt;</method>
+  <thread>1</thread>
+  <message>-Dio.netty.allocator.maxCachedBufferCapacity: 32768</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:05.366876Z</date>
+  <millis>1696563905366</millis>
+  <nanos>876000</nanos>
+  <sequence>129</sequence>
+  <logger>io.netty.buffer.PooledByteBufAllocator</logger>
+  <level>FINE</level>
+  <class>io.netty.buffer.PooledByteBufAllocator</class>
+  <method>&lt;clinit&gt;</method>
+  <thread>1</thread>
+  <message>-Dio.netty.allocator.cacheTrimInterval: 8192</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:05.366876Z</date>
+  <millis>1696563905366</millis>
+  <nanos>876000</nanos>
+  <sequence>130</sequence>
+  <logger>io.netty.buffer.PooledByteBufAllocator</logger>
+  <level>FINE</level>
+  <class>io.netty.buffer.PooledByteBufAllocator</class>
+  <method>&lt;clinit&gt;</method>
+  <thread>1</thread>
+  <message>-Dio.netty.allocator.cacheTrimIntervalMillis: 0</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:05.366876Z</date>
+  <millis>1696563905366</millis>
+  <nanos>876000</nanos>
+  <sequence>131</sequence>
+  <logger>io.netty.buffer.PooledByteBufAllocator</logger>
+  <level>FINE</level>
+  <class>io.netty.buffer.PooledByteBufAllocator</class>
+  <method>&lt;clinit&gt;</method>
+  <thread>1</thread>
+  <message>-Dio.netty.allocator.useCacheForAllThreads: false</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:05.367876Z</date>
+  <millis>1696563905367</millis>
+  <nanos>876000</nanos>
+  <sequence>132</sequence>
+  <logger>io.netty.buffer.PooledByteBufAllocator</logger>
+  <level>FINE</level>
+  <class>io.netty.buffer.PooledByteBufAllocator</class>
+  <method>&lt;clinit&gt;</method>
+  <thread>1</thread>
+  <message>-Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:05.382876700Z</date>
+  <millis>1696563905382</millis>
+  <nanos>876700</nanos>
+  <sequence>133</sequence>
+  <logger>io.netty.buffer.ByteBufUtil</logger>
+  <level>FINE</level>
+  <class>io.netty.buffer.ByteBufUtil</class>
+  <method>&lt;clinit&gt;</method>
+  <thread>1</thread>
+  <message>-Dio.netty.allocator.type: pooled</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:05.383874900Z</date>
+  <millis>1696563905383</millis>
+  <nanos>874900</nanos>
+  <sequence>134</sequence>
+  <logger>io.netty.buffer.ByteBufUtil</logger>
+  <level>FINE</level>
+  <class>io.netty.buffer.ByteBufUtil</class>
+  <method>&lt;clinit&gt;</method>
+  <thread>1</thread>
+  <message>-Dio.netty.threadLocalDirectBufferSize: 0</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:05.383874900Z</date>
+  <millis>1696563905383</millis>
+  <nanos>874900</nanos>
+  <sequence>135</sequence>
+  <logger>io.netty.buffer.ByteBufUtil</logger>
+  <level>FINE</level>
+  <class>io.netty.buffer.ByteBufUtil</class>
+  <method>&lt;clinit&gt;</method>
+  <thread>1</thread>
+  <message>-Dio.netty.maxThreadLocalCharBufferSize: 16384</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:05.563846500Z</date>
+  <millis>1696563905563</millis>
+  <nanos>846500</nanos>
+  <sequence>136</sequence>
+  <logger>org.openqa.selenium.remote.RemoteWebDriver</logger>
+  <level>FINE</level>
+  <class>org.openqa.selenium.remote.RemoteWebDriver</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Executing: newSession [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {args: [-headless]}}], desiredCapabilities=Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {args: [-headless]}}}]</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:06.023618700Z</date>
+  <millis>1696563906023</millis>
+  <nanos>618700</nanos>
+  <sequence>137</sequence>
+  <logger>io.netty.channel.DefaultChannelId</logger>
+  <level>FINE</level>
+  <class>io.netty.channel.DefaultChannelId</class>
+  <method>&lt;clinit&gt;</method>
+  <thread>1</thread>
+  <message>-Dio.netty.processId: 18600 (auto-detected)</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:06.025615300Z</date>
+  <millis>1696563906025</millis>
+  <nanos>615300</nanos>
+  <sequence>138</sequence>
+  <logger>io.netty.util.NetUtil</logger>
+  <level>FINE</level>
+  <class>io.netty.util.NetUtil</class>
+  <method>&lt;clinit&gt;</method>
+  <thread>1</thread>
+  <message>-Djava.net.preferIPv4Stack: false</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:06.026618300Z</date>
+  <millis>1696563906026</millis>
+  <nanos>618300</nanos>
+  <sequence>139</sequence>
+  <logger>io.netty.util.NetUtil</logger>
+  <level>FINE</level>
+  <class>io.netty.util.NetUtil</class>
+  <method>&lt;clinit&gt;</method>
+  <thread>1</thread>
+  <message>-Djava.net.preferIPv6Addresses: false</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:06.047612100Z</date>
+  <millis>1696563906047</millis>
+  <nanos>612100</nanos>
+  <sequence>140</sequence>
+  <logger>io.netty.util.NetUtilInitializations</logger>
+  <level>FINE</level>
+  <class>io.netty.util.NetUtilInitializations</class>
+  <method>determineLoopback</method>
+  <thread>1</thread>
+  <message>Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:06.048611300Z</date>
+  <millis>1696563906048</millis>
+  <nanos>611300</nanos>
+  <sequence>141</sequence>
+  <logger>io.netty.util.NetUtil</logger>
+  <level>FINE</level>
+  <class>io.netty.util.NetUtil$SoMaxConnAction</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:06.107105100Z</date>
+  <millis>1696563906107</millis>
+  <nanos>105100</nanos>
+  <sequence>142</sequence>
+  <logger>io.netty.channel.DefaultChannelId</logger>
+  <level>FINE</level>
+  <class>io.netty.channel.DefaultChannelId</class>
+  <method>&lt;clinit&gt;</method>
+  <thread>1</thread>
+  <message>-Dio.netty.machineId: 00:ff:8e:ff:fe:1a:e2:12 (auto-detected)</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:06.178083Z</date>
+  <millis>1696563906178</millis>
+  <nanos>83000</nanos>
+  <sequence>143</sequence>
+  <logger>io.netty.buffer.AbstractByteBuf</logger>
+  <level>FINE</level>
+  <class>io.netty.buffer.AbstractByteBuf</class>
+  <method>&lt;clinit&gt;</method>
+  <thread>36</thread>
+  <message>-Dio.netty.buffer.checkAccessible: true</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:06.178083Z</date>
+  <millis>1696563906178</millis>
+  <nanos>83000</nanos>
+  <sequence>144</sequence>
+  <logger>io.netty.buffer.AbstractByteBuf</logger>
+  <level>FINE</level>
+  <class>io.netty.buffer.AbstractByteBuf</class>
+  <method>&lt;clinit&gt;</method>
+  <thread>36</thread>
+  <message>-Dio.netty.buffer.checkBounds: true</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:06.178083Z</date>
+  <millis>1696563906178</millis>
+  <nanos>83000</nanos>
+  <sequence>145</sequence>
+  <logger>io.netty.util.ResourceLeakDetectorFactory</logger>
+  <level>FINE</level>
+  <class>io.netty.util.ResourceLeakDetectorFactory$DefaultResourceLeakDetectorFactory</class>
+  <method>newResourceLeakDetector</method>
+  <thread>36</thread>
+  <message>Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@447f6276</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:06.212593800Z</date>
+  <millis>1696563906212</millis>
+  <nanos>593800</nanos>
+  <sequence>146</sequence>
+  <logger>io.netty.util.Recycler</logger>
+  <level>FINE</level>
+  <class>io.netty.util.Recycler</class>
+  <method>&lt;clinit&gt;</method>
+  <thread>36</thread>
+  <message>-Dio.netty.recycler.maxCapacityPerThread: 4096</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:06.213596400Z</date>
+  <millis>1696563906213</millis>
+  <nanos>596400</nanos>
+  <sequence>147</sequence>
+  <logger>io.netty.util.Recycler</logger>
+  <level>FINE</level>
+  <class>io.netty.util.Recycler</class>
+  <method>&lt;clinit&gt;</method>
+  <thread>36</thread>
+  <message>-Dio.netty.recycler.ratio: 8</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:06.213596400Z</date>
+  <millis>1696563906213</millis>
+  <nanos>596400</nanos>
+  <sequence>148</sequence>
+  <logger>io.netty.util.Recycler</logger>
+  <level>FINE</level>
+  <class>io.netty.util.Recycler</class>
+  <method>&lt;clinit&gt;</method>
+  <thread>36</thread>
+  <message>-Dio.netty.recycler.chunkSize: 32</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:06.214594100Z</date>
+  <millis>1696563906214</millis>
+  <nanos>594100</nanos>
+  <sequence>149</sequence>
+  <logger>io.netty.util.Recycler</logger>
+  <level>FINE</level>
+  <class>io.netty.util.Recycler</class>
+  <method>&lt;clinit&gt;</method>
+  <thread>36</thread>
+  <message>-Dio.netty.recycler.blocking: false</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:09.282668400Z</date>
+  <millis>1696563909282</millis>
+  <nanos>668400</nanos>
+  <sequence>150</sequence>
+  <logger>io.netty.handler.codec.compression.Brotli</logger>
+  <level>FINE</level>
+  <class>io.netty.handler.codec.compression.Brotli</class>
+  <method>&lt;clinit&gt;</method>
+  <thread>36</thread>
+  <message>brotli4j not in the classpath; Brotli support will be unavailable.</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:09.434651200Z</date>
+  <millis>1696563909434</millis>
+  <nanos>651200</nanos>
+  <sequence>151</sequence>
+  <logger>org.openqa.selenium.remote.ProtocolHandshake</logger>
+  <level>INFO</level>
+  <class>org.openqa.selenium.remote.ProtocolHandshake</class>
+  <method>createSession</method>
+  <thread>1</thread>
+  <message>Detected upstream dialect: W3C</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:09.485640600Z</date>
+  <millis>1696563909485</millis>
+  <nanos>640600</nanos>
+  <sequence>152</sequence>
+  <logger>org.openqa.selenium.remote.RemoteWebDriver</logger>
+  <level>FINE</level>
+  <class>org.openqa.selenium.remote.RemoteWebDriver</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Executed: (Response: SessionID: 982d9102-b167-464e-9d3a-6b49d0e3be39, Status: 0, Value: {acceptInsecureCerts=true, browserName=firefox, browserVersion=118.0, moz:accessibilityChecks=false, moz:buildID=20230918143747, moz:debuggerAddress=127.0.0.1:58725, moz:geckodriverVersion=0.33.0, moz:headless=true, moz:platformVersion=10.0, moz:processID=21164, moz:profile=C:\Users\hoshi\AppData\Local\Temp\rust_mozprofileCISaPr, moz:shutdownTimeout=60000, moz:webdriverClick=true, moz:windowless=false, pageLoadStrategy=normal, platformName=windows, proxy=Proxy(), setWindowRect=true, strictFileInteractability=false, timeouts={implicit=0, pageLoad=300000, script=30000}, unhandledPromptBehavior=dismiss and notify})</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:09.498146600Z</date>
+  <millis>1696563909498</millis>
+  <nanos>146600</nanos>
+  <sequence>153</sequence>
+  <logger>org.openqa.selenium.devtools.CdpEndpointFinder</logger>
+  <level>FINE</level>
+  <class>org.openqa.selenium.devtools.CdpEndpointFinder</class>
+  <method>getReportedUri</method>
+  <thread>1</thread>
+  <message>URI found: http://127.0.0.1:58725</message>
+</record>
+<record>
+  <date>2023-10-06T03:45:09.519138200Z</date>
+  <millis>1696563909519</millis>
+  <nanos>138200</nanos>
+  <sequence>154</sequence>
+  <logger>org.openqa.selenium.remote.RemoteWebDriver</logger>
+  <level>FINE</level>
+  <class>org.openqa.selenium.remote.RemoteWebDriver</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Executing: get [982d9102-b167-464e-9d3a-6b49d0e3be39, get {url=https://www.purpleculture.net/dictionary-details}]</message>
+</record>
+<record>
+  <date>2023-10-06T03:46:12.995735800Z</date>
+  <millis>1696563972995</millis>
+  <nanos>735800</nanos>
+  <sequence>155</sequence>
+  <logger>org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec</logger>
+  <level>FINE</level>
+  <class>org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec</class>
+  <method>decode</method>
+  <thread>1</thread>
+  <message>Decoding response. Response code was: 200 and content: {"value":null}</message>
+</record>
+<record>
+  <date>2023-10-06T03:46:12.998735900Z</date>
+  <millis>1696563972998</millis>
+  <nanos>735900</nanos>
+  <sequence>156</sequence>
+  <logger>org.openqa.selenium.remote.RemoteWebDriver</logger>
+  <level>FINE</level>
+  <class>org.openqa.selenium.remote.RemoteWebDriver</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Executed: (Response: SessionID: 982d9102-b167-464e-9d3a-6b49d0e3be39, Status: 0, Value: null)</message>
+</record>
+<record>
+  <date>2023-10-06T03:46:12.999736800Z</date>
+  <millis>1696563972999</millis>
+  <nanos>736800</nanos>
+  <sequence>157</sequence>
+  <logger>org.openqa.selenium.remote.RemoteWebDriver</logger>
+  <level>FINE</level>
+  <class>org.openqa.selenium.remote.RemoteWebDriver</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Executing: findElements [982d9102-b167-464e-9d3a-6b49d0e3be39, findElements {using=class name, value=btn-action}]</message>
+</record>
+<record>
+  <date>2023-10-06T03:46:13.017735500Z</date>
+  <millis>1696563973017</millis>
+  <nanos>735500</nanos>
+  <sequence>158</sequence>
+  <logger>org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec</logger>
+  <level>FINE</level>
+  <class>org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec</class>
+  <method>decode</method>
+  <thread>1</thread>
+  <message>Decoding response. Response code was: 200 and content: {"value":[{"element-6066-11e4-a52e-4f735466cecf":"81c896ba-a338-4270-93bd-77863a4bc2dd"},{"element-6066-11e4-a52e-4f735466cecf":"ef9deb49-834d-4f59-915b-dba934e5612a"},{"element-6066-11e4-a52e-4f735466cecf":"6fe26f21-8146-4761-b143-e81cac13f8a4"}]}</message>
+</record>
+<record>
+  <date>2023-10-06T03:46:13.017735500Z</date>
+  <millis>1696563973017</millis>
+  <nanos>735500</nanos>
+  <sequence>159</sequence>
+  <logger>org.openqa.selenium.remote.RemoteWebDriver</logger>
+  <level>FINE</level>
+  <class>org.openqa.selenium.remote.RemoteWebDriver</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Executed: (Response: SessionID: 982d9102-b167-464e-9d3a-6b49d0e3be39, Status: 0, Value: [{element-6066-11e4-a52e-4f735466cecf=81c896ba-a338-4270-93bd-77863a4bc2dd}, {element-6066-11e4-a52e-4f735466cecf=ef9deb49-834d-4f59-915b-dba934e5612a}, {element-6066-11e4-a52e-4f735466cecf=6fe26f21-8146-4761-b143-e81cac13f8a4}])</message>
+</record>
+<record>
+  <date>2023-10-06T03:46:13.025757900Z</date>
+  <millis>1696563973025</millis>
+  <nanos>757900</nanos>
+  <sequence>160</sequence>
+  <logger>org.openqa.selenium.remote.RemoteWebDriver</logger>
+  <level>FINE</level>
+  <class>org.openqa.selenium.remote.RemoteWebDriver</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Executing: clickElement [982d9102-b167-464e-9d3a-6b49d0e3be39, clickElement {id=81c896ba-a338-4270-93bd-77863a4bc2dd}]</message>
+</record>
+<record>
+  <date>2023-10-06T03:46:13.277185500Z</date>
+  <millis>1696563973277</millis>
+  <nanos>185500</nanos>
+  <sequence>161</sequence>
+  <logger>org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec</logger>
+  <level>FINE</level>
+  <class>org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec</class>
+  <method>decode</method>
+  <thread>1</thread>
+  <message>Decoding response. Response code was: 200 and content: {"value":null}</message>
+</record>
+<record>
+  <date>2023-10-06T03:46:13.278182700Z</date>
+  <millis>1696563973278</millis>
+  <nanos>182700</nanos>
+  <sequence>162</sequence>
+  <logger>org.openqa.selenium.remote.RemoteWebDriver</logger>
+  <level>FINE</level>
+  <class>org.openqa.selenium.remote.RemoteWebDriver</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Executed: (Response: SessionID: 982d9102-b167-464e-9d3a-6b49d0e3be39, Status: 0, Value: null)</message>
+</record>
+<record>
+  <date>2023-10-06T03:46:13.282182600Z</date>
+  <millis>1696563973282</millis>
+  <nanos>182600</nanos>
+  <sequence>163</sequence>
+  <logger>org.openqa.selenium.remote.RemoteWebDriver</logger>
+  <level>FINE</level>
+  <class>org.openqa.selenium.remote.RemoteWebDriver</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Executing: findElement [982d9102-b167-464e-9d3a-6b49d0e3be39, findElement {using=id, value=word}]</message>
+</record>
+<record>
+  <date>2023-10-06T03:46:13.288689900Z</date>
+  <millis>1696563973288</millis>
+  <nanos>689900</nanos>
+  <sequence>164</sequence>
+  <logger>org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec</logger>
+  <level>FINE</level>
+  <class>org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec</class>
+  <method>decode</method>
+  <thread>1</thread>
+  <message>Decoding response. Response code was: 200 and content: {"value":{"element-6066-11e4-a52e-4f735466cecf":"b0d19446-fed3-4e61-8b3f-86e7c345d111"}}</message>
+</record>
+<record>
+  <date>2023-10-06T03:46:13.289689800Z</date>
+  <millis>1696563973289</millis>
+  <nanos>689800</nanos>
+  <sequence>165</sequence>
+  <logger>org.openqa.selenium.remote.RemoteWebDriver</logger>
+  <level>FINE</level>
+  <class>org.openqa.selenium.remote.RemoteWebDriver</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Executed: (Response: SessionID: 982d9102-b167-464e-9d3a-6b49d0e3be39, Status: 0, Value: {element-6066-11e4-a52e-4f735466cecf=b0d19446-fed3-4e61-8b3f-86e7c345d111})</message>
+</record>
+<record>
+  <date>2023-10-06T03:46:13.290687100Z</date>
+  <millis>1696563973290</millis>
+  <nanos>687100</nanos>
+  <sequence>166</sequence>
+  <logger>org.openqa.selenium.remote.RemoteWebDriver</logger>
+  <level>FINE</level>
+  <class>org.openqa.selenium.remote.RemoteWebDriver</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Executing: sendKeysToElement [982d9102-b167-464e-9d3a-6b49d0e3be39, sendKeysToElement {id=b0d19446-fed3-4e61-8b3f-86e7c345d111, value=[Ljava.lang.CharSequence;@4d098f9b}]</message>
+</record>
+<record>
+  <date>2023-10-06T03:46:13.332675900Z</date>
+  <millis>1696563973332</millis>
+  <nanos>675900</nanos>
+  <sequence>167</sequence>
+  <logger>org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec</logger>
+  <level>FINE</level>
+  <class>org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec</class>
+  <method>decode</method>
+  <thread>1</thread>
+  <message>Decoding response. Response code was: 200 and content: {"value":null}</message>
+</record>
+<record>
+  <date>2023-10-06T03:46:13.333673400Z</date>
+  <millis>1696563973333</millis>
+  <nanos>673400</nanos>
+  <sequence>168</sequence>
+  <logger>org.openqa.selenium.remote.RemoteWebDriver</logger>
+  <level>FINE</level>
+  <class>org.openqa.selenium.remote.RemoteWebDriver</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Executed: (Response: SessionID: 982d9102-b167-464e-9d3a-6b49d0e3be39, Status: 0, Value: null)</message>
+</record>
+<record>
+  <date>2023-10-06T03:46:13.337672Z</date>
+  <millis>1696563973337</millis>
+  <nanos>672000</nanos>
+  <sequence>169</sequence>
+  <logger>org.openqa.selenium.remote.RemoteWebDriver</logger>
+  <level>FINE</level>
+  <class>org.openqa.selenium.remote.RemoteWebDriver</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Executing: sendKeysToElement [982d9102-b167-464e-9d3a-6b49d0e3be39, sendKeysToElement {id=b0d19446-fed3-4e61-8b3f-86e7c345d111, value=[Ljava.lang.CharSequence;@69637b10}]</message>
+</record>
+<record>
+  <date>2023-10-06T03:46:13.464996200Z</date>
+  <millis>1696563973464</millis>
+  <nanos>996200</nanos>
+  <sequence>170</sequence>
+  <logger>org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec</logger>
+  <level>FINE</level>
+  <class>org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec</class>
+  <method>decode</method>
+  <thread>1</thread>
+  <message>Decoding response. Response code was: 200 and content: {"value":null}</message>
+</record>
+<record>
+  <date>2023-10-06T03:46:13.465996300Z</date>
+  <millis>1696563973465</millis>
+  <nanos>996300</nanos>
+  <sequence>171</sequence>
+  <logger>org.openqa.selenium.remote.RemoteWebDriver</logger>
+  <level>FINE</level>
+  <class>org.openqa.selenium.remote.RemoteWebDriver</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Executed: (Response: SessionID: 982d9102-b167-464e-9d3a-6b49d0e3be39, Status: 0, Value: null)</message>
+</record>
+<record>
+  <date>2023-10-06T03:46:13.465996300Z</date>
+  <millis>1696563973465</millis>
+  <nanos>996300</nanos>
+  <sequence>172</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>buka file nya</message>
+</record>
+<record>
+  <date>2023-10-06T03:46:13.468995100Z</date>
+  <millis>1696563973468</millis>
+  <nanos>995100</nanos>
+  <sequence>173</sequence>
+  <logger>org.openqa.selenium.remote.RemoteWebDriver</logger>
+  <level>FINE</level>
+  <class>org.openqa.selenium.remote.RemoteWebDriver</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Executing: findElement [982d9102-b167-464e-9d3a-6b49d0e3be39, findElement {using=class name, value=sen0}]</message>
+</record>
+<record>
+  <date>2023-10-06T03:46:13.510508100Z</date>
+  <millis>1696563973510</millis>
+  <nanos>508100</nanos>
+  <sequence>174</sequence>
+  <logger>org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec</logger>
+  <level>FINE</level>
+  <class>org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec</class>
+  <method>decode</method>
+  <thread>1</thread>
+  <message>Decoding response. Response code was: 404 and content: {"value":{"error":"no such element","message":"Unable to locate element: .sen0","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:189:5\nNoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:507:5\ndom.find/&lt;/&lt;@chrome://remote/content/shared/DOM.sys.mjs:132:16\n"}}</message>
+</record>
+<record>
+  <date>2023-10-06T03:46:13.511503Z</date>
+  <millis>1696563973511</millis>
+  <nanos>503000</nanos>
+  <sequence>175</sequence>
+  <logger>org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec</logger>
+  <level>FINE</level>
+  <class>org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec</class>
+  <method>decode</method>
+  <thread>1</thread>
+  <message>Processing an error</message>
+</record>
+<record>
+  <date>2023-10-06T03:46:13.530512Z</date>
+  <millis>1696563973530</millis>
+  <nanos>512000</nanos>
+  <sequence>176</sequence>
+  <logger>org.openqa.selenium.remote.RemoteWebDriver</logger>
+  <level>FINE</level>
+  <class>org.openqa.selenium.remote.RemoteWebDriver</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Executed: (Response: SessionID: 982d9102-b167-464e-9d3a-6b49d0e3be39, Status: 7, Value: org.openqa.selenium.NoSuchElementException: Unable to locate element: .sen0
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'HOSHIMACHIN', ip: '192.168.12.62', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: driver.version: RemoteWebDriver)</message>
+</record>
+</log>
