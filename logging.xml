@@ -8,7 +8,7 @@
   <sequence>0</sequence>
   <logger></logger>
   <level>INFO</level>
-  <class>Main</class>
+  <class>com.ilovethislanguagesomuch.Main</class>
   <method>main</method>
   <thread>1</thread>
   <message>buka fiierxfox</message>
@@ -2072,7 +2072,7 @@
   <sequence>172</sequence>
   <logger></logger>
   <level>INFO</level>
-  <class>Main</class>
+  <class>com.ilovethislanguagesomuch.Main</class>
   <method>main</method>
   <thread>1</thread>
   <message>buka file nya</message>

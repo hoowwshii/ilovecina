@@ -1,3 +1,5 @@
+package com.ilovethislanguagesomuch;
+
 import java.io.BufferedInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -6,7 +8,7 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 public class download {
     public static void downplease(String u, String path) {
-        String audioUrl = u; // Replace with the URL of the audio file you want to download
+        String audioUrl = u; // Replace with the URL of the audio file you want to com.ilovethislanguagesomuch.download
         String saveFilePath = path; // Replace with the desired save path
 
         try {

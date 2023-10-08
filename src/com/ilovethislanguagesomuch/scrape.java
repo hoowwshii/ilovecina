@@ -1,9 +1,13 @@
-import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebElement;
+package com.ilovethislanguagesomuch;
+import com.ilovethislanguagesomuch.*;
+import org.openqa.selenium.*;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.time.Duration;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 public class scrape {
     private static void checkSelectList(List<WebElement> select){
@@ -13,18 +17,19 @@ public class scrape {
             System.out.println("lol");
         }
     }
-    public static void scraping(FirefoxDriver ao, String word) throws InterruptedException{
+    public static void scraping(FirefoxDriver ao, String word) throws InterruptedException, NoSuchElementException {
         List<WebElement> select = ao.findElements(By.className("btn-action"));
         checkSelectList(select);
         WebElement input = ao.findElement(By.id("word"));
         input.sendKeys(word);
         input.sendKeys(Keys.ENTER);
-        Thread.sleep(5000);
+        Thread.sleep(10000);
         WebElement outer = ao.findElement(By.id("sen0"));
         WebElement Inner = outer.findElement(By.className("sm2_link"));
         String link = Inner.getAttribute("href");
         //hardcoded lol
         String substr = link.substring(34);
+
         download.downplease(link, "D:\\sekolah\\tik\\" + substr); // done banh please
     }
 }
